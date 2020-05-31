@@ -1,0 +1,1367 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AlexnetV2Test	nets/alexnet_test.py	/^class AlexnetV2Test(tf.test.TestCase):$/;"	c
+BatchNormClassifier	deployment/model_deploy_test.py	/^def BatchNormClassifier(inputs, labels, scope=None, reuse=None):$/;"	f
+Block	nets/pix2pix.py	/^    collections.namedtuple('Block', ['num_filters', 'decoder_keep_prob'])):$/;"	c
+Block	nets/resnet_utils.py	/^class Block(collections.namedtuple('Block', ['scope', 'unit_fn', 'args'])):$/;"	c
+BoundingBox	datasets/process_bounding_boxes.py	/^class BoundingBox(object):$/;"	c
+CLIP_BY_VALUE_CAP	nets/nasnet/nasnet_utils.py	/^CLIP_BY_VALUE_CAP = 6$/;"	v
+Clone	deployment/model_deploy.py	/^Clone = collections.namedtuple('Clone',$/;"	v
+Conv	nets/mobilenet_v1.py	/^Conv = namedtuple('Conv', ['kernel', 'stride', 'depth'])$/;"	v
+CreatecloneTest	deployment/model_deploy_test.py	/^class CreatecloneTest(tf.test.TestCase):$/;"	c
+CycleganTest	nets/cyclegan_test.py	/^class CycleganTest(tf.test.TestCase):$/;"	c
+DATA_FORMAT_NCHW	nets/nasnet/nasnet_utils.py	/^DATA_FORMAT_NCHW = 'NCHW'$/;"	v
+DATA_FORMAT_NHWC	nets/nasnet/nasnet_utils.py	/^DATA_FORMAT_NHWC = 'NHWC'$/;"	v
+DCGANTest	nets/dcgan_test.py	/^class DCGANTest(tf.test.TestCase):$/;"	c
+DeployTest	deployment/model_deploy_test.py	/^class DeployTest(tf.test.TestCase):$/;"	c
+DeployedModel	deployment/model_deploy.py	/^DeployedModel = collections.namedtuple('DeployedModel',$/;"	v
+DeploymentConfig	deployment/model_deploy.py	/^class DeploymentConfig(object):$/;"	c
+DeploymentConfigTest	deployment/model_deploy_test.py	/^class DeploymentConfigTest(tf.test.TestCase):$/;"	c
+DepthSepConv	nets/mobilenet_v1.py	/^DepthSepConv = namedtuple('DepthSepConv', ['kernel', 'stride', 'depth'])$/;"	v
+DiscriminatorTest	nets/pix2pix_test.py	/^class DiscriminatorTest(tf.test.TestCase):$/;"	c
+ET	datasets/process_bounding_boxes.py	/^import xml.etree.ElementTree as ET$/;"	i
+ExportInferenceGraphTest	export_inference_graph_test.py	/^class ExportInferenceGraphTest(tf.test.TestCase):$/;"	c
+FLAGS	datasets/build_imagenet_data.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FLAGS	download_and_convert_data.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FLAGS	eval_image_classifier.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FLAGS	export_inference_graph.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FLAGS	nets/mobilenet_v1_eval.py	/^FLAGS = flags.FLAGS$/;"	v
+FLAGS	nets/mobilenet_v1_train.py	/^FLAGS = flags.FLAGS$/;"	v
+FLAGS	train_image_classifier.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FindNumberBoundingBoxes	datasets/process_bounding_boxes.py	/^def FindNumberBoundingBoxes(root):$/;"	f
+GeneratorTest	nets/pix2pix_test.py	/^class GeneratorTest(tf.test.TestCase):$/;"	c
+GetInt	datasets/process_bounding_boxes.py	/^def GetInt(name, root, index=0):$/;"	f
+GetItem	datasets/process_bounding_boxes.py	/^def GetItem(name, root, index=0):$/;"	f
+I3DTest	nets/i3d_test.py	/^class I3DTest(tf.test.TestCase):$/;"	c
+INVALID	nets/nasnet/nasnet_utils.py	/^INVALID = 'null'$/;"	v
+ImageCoder	datasets/build_imagenet_data.py	/^class ImageCoder(object):$/;"	c
+ImageReader	datasets/download_and_convert_flowers.py	/^class ImageReader(object):$/;"	c
+InceptionTest	nets/inception_resnet_v2_test.py	/^class InceptionTest(tf.test.TestCase):$/;"	c
+InceptionTest	nets/inception_v4_test.py	/^class InceptionTest(tf.test.TestCase):$/;"	c
+InceptionV1Test	nets/inception_v1_test.py	/^class InceptionV1Test(tf.test.TestCase):$/;"	c
+InceptionV2Test	nets/inception_v2_test.py	/^class InceptionV2Test(tf.test.TestCase):$/;"	c
+InceptionV3Test	nets/inception_v3_test.py	/^class InceptionV3Test(tf.test.TestCase):$/;"	c
+LABELS_FILENAME	datasets/dataset_utils.py	/^LABELS_FILENAME = 'labels.txt'$/;"	v
+LOAD_READABLE_NAMES	datasets/imagenet.py	/^LOAD_READABLE_NAMES = True$/;"	v
+LogisticClassifier	deployment/model_deploy_test.py	/^def LogisticClassifier(inputs, labels, scope=None, reuse=None):$/;"	f
+MOBILENETV1_CONV_DEFS	nets/mobilenet_v1.py	/^MOBILENETV1_CONV_DEFS = [$/;"	v
+MobilenetV1Test	nets/mobilenet_v1_test.py	/^class MobilenetV1Test(tf.test.TestCase):$/;"	c
+MobilenetV2Test	nets/mobilenet/mobilenet_v2_test.py	/^class MobilenetV2Test(tf.test.TestCase):$/;"	c
+ModelFn	deployment/model_deploy_test.py	/^      def ModelFn():$/;"	f	function:DeployTest.testNoSummariesOnGPU
+ModelFn	deployment/model_deploy_test.py	/^      def ModelFn():$/;"	f	function:DeployTest.testNoSummariesOnGPUForEvals
+NASNetTest	nets/nasnet/nasnet_test.py	/^class NASNetTest(tf.test.TestCase):$/;"	c
+NasNetABaseCell	nets/nasnet/nasnet_utils.py	/^class NasNetABaseCell(object):$/;"	c
+NasNetANormalCell	nets/nasnet/nasnet_utils.py	/^class NasNetANormalCell(NasNetABaseCell):$/;"	c
+NasNetAReductionCell	nets/nasnet/nasnet_utils.py	/^class NasNetAReductionCell(NasNetABaseCell):$/;"	c
+NasnetUtilsTest	nets/nasnet/nasnet_utils_test.py	/^class NasnetUtilsTest(tf.test.TestCase):$/;"	c
+NetworksTest	nets/nets_factory_test.py	/^class NetworksTest(tf.test.TestCase):$/;"	c
+NoOpScope	nets/mobilenet/mobilenet.py	/^class NoOpScope(object):$/;"	c
+NoOpScope	nets/resnet_v1.py	/^class NoOpScope(object):$/;"	c
+OptimizeclonesTest	deployment/model_deploy_test.py	/^class OptimizeclonesTest(tf.test.TestCase):$/;"	c
+OverFeatTest	nets/overfeat_test.py	/^class OverFeatTest(tf.test.TestCase):$/;"	c
+PNASNetTest	nets/nasnet/pnasnet_test.py	/^class PNASNetTest(tf.test.TestCase):$/;"	c
+PNasNetNormalCell	nets/nasnet/pnasnet.py	/^class PNasNetNormalCell(nasnet_utils.NasNetABaseCell):$/;"	c
+ProcessXMLAnnotation	datasets/process_bounding_boxes.py	/^def ProcessXMLAnnotation(xml_file):$/;"	f
+ResnetCompleteNetworkTest	nets/resnet_v1_test.py	/^class ResnetCompleteNetworkTest(tf.test.TestCase):$/;"	c
+ResnetCompleteNetworkTest	nets/resnet_v2_test.py	/^class ResnetCompleteNetworkTest(tf.test.TestCase):$/;"	c
+ResnetUtilsTest	nets/resnet_v1_test.py	/^class ResnetUtilsTest(tf.test.TestCase):$/;"	c
+ResnetUtilsTest	nets/resnet_v2_test.py	/^class ResnetUtilsTest(tf.test.TestCase):$/;"	c
+S3DGTest	nets/s3dg_test.py	/^class S3DGTest(tf.test.TestCase):$/;"	c
+SPLITS_TO_SIZES	datasets/cifar10.py	/^SPLITS_TO_SIZES = {'train': 50000, 'test': 10000}$/;"	v
+SPLITS_TO_SIZES	datasets/flowers.py	/^SPLITS_TO_SIZES = {'train': 3320, 'validation': 350}$/;"	v
+V2_DEF	nets/mobilenet/mobilenet_v2.py	/^V2_DEF = dict($/;"	v
+VGG16Test	nets/vgg_test.py	/^class VGG16Test(tf.test.TestCase):$/;"	c
+VGG19Test	nets/vgg_test.py	/^class VGG19Test(tf.test.TestCase):$/;"	c
+VGGATest	nets/vgg_test.py	/^class VGGATest(tf.test.TestCase):$/;"	c
+_B_MEAN	preprocessing/vgg_preprocessing.py	/^_B_MEAN = 103.94$/;"	v
+_CLASS_NAMES	datasets/download_and_convert_cifar10.py	/^_CLASS_NAMES = [$/;"	v
+_CLASS_NAMES	datasets/download_and_convert_mnist.py	/^_CLASS_NAMES = [$/;"	v
+_DATA_URL	datasets/download_and_convert_cifar10.py	/^_DATA_URL = 'https:\/\/www.cs.toronto.edu\/~kriz\/cifar-10-python.tar.gz'$/;"	v
+_DATA_URL	datasets/download_and_convert_flowers.py	/^_DATA_URL = 'http:\/\/download.tensorflow.org\/example_images\/flower_photos.tgz'$/;"	v
+_DATA_URL	datasets/download_and_convert_mnist.py	/^_DATA_URL = 'http:\/\/yann.lecun.com\/exdb\/mnist\/'$/;"	v
+_FILE_PATTERN	datasets/cifar10.py	/^_FILE_PATTERN = 'cifar10_%s.tfrecord'$/;"	v
+_FILE_PATTERN	datasets/flowers.py	/^_FILE_PATTERN = 'flowers_%s_*.tfrecord'$/;"	v
+_FILE_PATTERN	datasets/imagenet.py	/^_FILE_PATTERN = '%s-*'$/;"	v
+_FILE_PATTERN	datasets/mnist.py	/^_FILE_PATTERN = 'mnist_%s.tfrecord'$/;"	v
+_G_MEAN	preprocessing/vgg_preprocessing.py	/^_G_MEAN = 116.78$/;"	v
+_IMAGE_SIZE	datasets/download_and_convert_cifar10.py	/^_IMAGE_SIZE = 32$/;"	v
+_IMAGE_SIZE	datasets/download_and_convert_mnist.py	/^_IMAGE_SIZE = 28$/;"	v
+_ITEMS_TO_DESCRIPTIONS	datasets/cifar10.py	/^_ITEMS_TO_DESCRIPTIONS = {$/;"	v
+_ITEMS_TO_DESCRIPTIONS	datasets/flowers.py	/^_ITEMS_TO_DESCRIPTIONS = {$/;"	v
+_ITEMS_TO_DESCRIPTIONS	datasets/imagenet.py	/^_ITEMS_TO_DESCRIPTIONS = {$/;"	v
+_ITEMS_TO_DESCRIPTIONS	datasets/mnist.py	/^_ITEMS_TO_DESCRIPTIONS = {$/;"	v
+_LEARNING_RATE_DECAY_FACTOR	nets/mobilenet_v1_train.py	/^_LEARNING_RATE_DECAY_FACTOR = 0.94$/;"	v
+_NUM_CHANNELS	datasets/download_and_convert_mnist.py	/^_NUM_CHANNELS = 1$/;"	v
+_NUM_CLASSES	datasets/cifar10.py	/^_NUM_CLASSES = 10$/;"	v
+_NUM_CLASSES	datasets/flowers.py	/^_NUM_CLASSES = 5$/;"	v
+_NUM_CLASSES	datasets/imagenet.py	/^_NUM_CLASSES = 1001$/;"	v
+_NUM_CLASSES	datasets/mnist.py	/^_NUM_CLASSES = 10$/;"	v
+_NUM_SHARDS	datasets/download_and_convert_flowers.py	/^_NUM_SHARDS = 5$/;"	v
+_NUM_TRAIN_FILES	datasets/download_and_convert_cifar10.py	/^_NUM_TRAIN_FILES = 5$/;"	v
+_NUM_VALIDATION	datasets/download_and_convert_flowers.py	/^_NUM_VALIDATION = 350$/;"	v
+_Op	nets/mobilenet/mobilenet.py	/^_Op = collections.namedtuple('Op', ['op', 'params', 'multiplier_func'])$/;"	v
+_PADDING	preprocessing/cifarnet_preprocessing.py	/^_PADDING = 4$/;"	v
+_PSDeviceChooser	deployment/model_deploy.py	/^    class _PSDeviceChooser(object):$/;"	c	function:DeploymentConfig.variables_device
+_RANDOM_SEED	datasets/download_and_convert_flowers.py	/^_RANDOM_SEED = 0$/;"	v
+_RESIZE_SIDE_MAX	preprocessing/vgg_preprocessing.py	/^_RESIZE_SIDE_MAX = 512$/;"	v
+_RESIZE_SIDE_MIN	preprocessing/vgg_preprocessing.py	/^_RESIZE_SIDE_MIN = 256$/;"	v
+_R_MEAN	preprocessing/vgg_preprocessing.py	/^_R_MEAN = 123.68$/;"	v
+_SPLITS_TO_SIZES	datasets/imagenet.py	/^_SPLITS_TO_SIZES = {$/;"	v
+_SPLITS_TO_SIZES	datasets/mnist.py	/^_SPLITS_TO_SIZES = {'train': 60000, 'test': 10000}$/;"	v
+_TEST_DATA_FILENAME	datasets/download_and_convert_mnist.py	/^_TEST_DATA_FILENAME = 't10k-images-idx3-ubyte.gz'$/;"	v
+_TEST_LABELS_FILENAME	datasets/download_and_convert_mnist.py	/^_TEST_LABELS_FILENAME = 't10k-labels-idx1-ubyte.gz'$/;"	v
+_TRAIN_DATA_FILENAME	datasets/download_and_convert_mnist.py	/^_TRAIN_DATA_FILENAME = 'train-images-idx3-ubyte.gz'$/;"	v
+_TRAIN_LABELS_FILENAME	datasets/download_and_convert_mnist.py	/^_TRAIN_LABELS_FILENAME = 'train-labels-idx1-ubyte.gz'$/;"	v
+__all__	deployment/model_deploy.py	/^__all__ = ['create_clones',$/;"	v
+__all__	nets/mobilenet/mobilenet_v2.py	/^__all__ = ['training_scope', 'mobilenet_base', 'mobilenet', 'V2_DEF']$/;"	v
+__call__	nets/nasnet/nasnet_utils.py	/^  def __call__(self, net, scope=None, filter_scaling=1, stride=1,$/;"	m	class:NasNetABaseCell	file:
+__enter__	nets/mobilenet/mobilenet.py	/^  def __enter__(self):$/;"	m	class:NoOpScope	file:
+__enter__	nets/resnet_v1.py	/^  def __enter__(self):$/;"	m	class:NoOpScope	file:
+__exit__	nets/mobilenet/mobilenet.py	/^  def __exit__(self, exc_type, exc_value, traceback):$/;"	m	class:NoOpScope	file:
+__exit__	nets/resnet_v1.py	/^  def __exit__(self, exc_type, exc_value, traceback):$/;"	m	class:NoOpScope	file:
+__init__	datasets/build_imagenet_data.py	/^  def __init__(self):$/;"	m	class:ImageCoder
+__init__	datasets/download_and_convert_flowers.py	/^  def __init__(self):$/;"	m	class:ImageReader
+__init__	deployment/model_deploy.py	/^      def __init__(self, device, tasks):$/;"	m	class:DeploymentConfig.variables_device._PSDeviceChooser
+__init__	deployment/model_deploy.py	/^  def __init__(self,$/;"	m	class:DeploymentConfig
+__init__	nets/nasnet/nasnet_utils.py	/^  def __init__(self, num_conv_filters, drop_path_keep_prob, total_num_cells,$/;"	m	class:NasNetANormalCell
+__init__	nets/nasnet/nasnet_utils.py	/^  def __init__(self, num_conv_filters, drop_path_keep_prob, total_num_cells,$/;"	m	class:NasNetAReductionCell
+__init__	nets/nasnet/nasnet_utils.py	/^  def __init__(self, num_conv_filters, operations, used_hiddenstates,$/;"	m	class:NasNetABaseCell
+__init__	nets/nasnet/pnasnet.py	/^  def __init__(self, num_conv_filters, drop_path_keep_prob, total_num_cells,$/;"	m	class:PNasNetNormalCell
+_addBesselsCorrection	deployment/model_deploy_test.py	/^  def _addBesselsCorrection(self, sample_size, expected_var):$/;"	m	class:DeployTest
+_add_gradients_summaries	deployment/model_deploy.py	/^def _add_gradients_summaries(grads_and_vars):$/;"	f
+_add_to_tfrecord	datasets/download_and_convert_cifar10.py	/^def _add_to_tfrecord(filename, tfrecord_writer, offset=0):$/;"	f
+_add_to_tfrecord	datasets/download_and_convert_mnist.py	/^def _add_to_tfrecord(data_filename, labels_filename, num_images,$/;"	f
+_apply_conv_operation	nets/nasnet/nasnet_utils.py	/^  def _apply_conv_operation(self, net, operation,$/;"	m	class:NasNetABaseCell
+_apply_drop_path	nets/nasnet/nasnet_utils.py	/^  def _apply_drop_path(self, net, current_step=None,$/;"	m	class:NasNetABaseCell
+_aspect_preserving_resize	preprocessing/vgg_preprocessing.py	/^def _aspect_preserving_resize(image, smallest_side):$/;"	f
+_build_aux_head	nets/nasnet/nasnet.py	/^def _build_aux_head(net, end_points, num_classes, hparams, scope):$/;"	f
+_build_bounding_box_lookup	datasets/build_imagenet_data.py	/^def _build_bounding_box_lookup(bounding_box_file):$/;"	f
+_build_nasnet_base	nets/nasnet/nasnet.py	/^def _build_nasnet_base(images,$/;"	f
+_build_pnasnet_base	nets/nasnet/pnasnet.py	/^def _build_pnasnet_base(images,$/;"	f
+_build_synset_lookup	datasets/build_imagenet_data.py	/^def _build_synset_lookup(imagenet_metadata_file):$/;"	f
+_bytes_feature	datasets/build_imagenet_data.py	/^def _bytes_feature(value):$/;"	f
+_cell_base	nets/nasnet/nasnet_utils.py	/^  def _cell_base(self, net, prev_layer):$/;"	m	class:NasNetABaseCell
+_central_crop	preprocessing/vgg_preprocessing.py	/^def _central_crop(image_list, crop_height, crop_width):$/;"	f
+_cifar_stem	nets/nasnet/nasnet.py	/^def _cifar_stem(inputs, hparams):$/;"	f
+_clean_up_temporary_files	datasets/download_and_convert_cifar10.py	/^def _clean_up_temporary_files(dataset_dir):$/;"	f
+_clean_up_temporary_files	datasets/download_and_convert_flowers.py	/^def _clean_up_temporary_files(dataset_dir):$/;"	f
+_clean_up_temporary_files	datasets/download_and_convert_mnist.py	/^def _clean_up_temporary_files(dataset_dir):$/;"	f
+_combine_unused_states	nets/nasnet/nasnet_utils.py	/^  def _combine_unused_states(self, net):$/;"	m	class:NasNetABaseCell
+_configure_learning_rate	train_image_classifier.py	/^def _configure_learning_rate(num_samples_per_epoch, global_step):$/;"	f
+_configure_optimizer	train_image_classifier.py	/^def _configure_optimizer(learning_rate):$/;"	f
+_convert_dataset	datasets/download_and_convert_flowers.py	/^def _convert_dataset(split_name, filenames, class_names_to_ids, dataset_dir):$/;"	f
+_convert_to_example	datasets/build_imagenet_data.py	/^def _convert_to_example(filename, image_buffer, label, synset, human, bbox,$/;"	f
+_crop	preprocessing/vgg_preprocessing.py	/^def _crop(image, offset_height, offset_width, crop_height, crop_width):$/;"	f
+_dataset_exists	datasets/download_and_convert_flowers.py	/^def _dataset_exists(dataset_dir):$/;"	f
+_default_generator_blocks	nets/pix2pix.py	/^def _default_generator_blocks():$/;"	f
+_deployment_params	deployment/model_deploy.py	/^_deployment_params = {'num_clones': 1,$/;"	v
+_download_and_uncompress_dataset	datasets/download_and_convert_cifar10.py	/^def _download_and_uncompress_dataset(dataset_dir):$/;"	f
+_download_dataset	datasets/download_and_convert_mnist.py	/^def _download_dataset(dataset_dir):$/;"	f
+_dynamic_or_static_shape	nets/cyclegan.py	/^def _dynamic_or_static_shape(tensor):$/;"	f
+_error_if_height_not_multiple_of_four_helper	nets/cyclegan_test.py	/^  def _error_if_height_not_multiple_of_four_helper(self, height):$/;"	m	class:CycleganTest
+_error_if_width_not_multiple_of_four_helper	nets/cyclegan_test.py	/^  def _error_if_width_not_multiple_of_four_helper(self, width):$/;"	m	class:CycleganTest
+_extract_images	datasets/download_and_convert_mnist.py	/^def _extract_images(filename, num_images):$/;"	f
+_extract_labels	datasets/download_and_convert_mnist.py	/^def _extract_labels(filename, num_labels):$/;"	f
+_find_human_readable_labels	datasets/build_imagenet_data.py	/^def _find_human_readable_labels(synsets, synset_to_human):$/;"	f
+_find_image_bounding_boxes	datasets/build_imagenet_data.py	/^def _find_image_bounding_boxes(filenames, image_to_bboxes):$/;"	f
+_find_image_files	datasets/build_imagenet_data.py	/^def _find_image_files(data_dir, labels_file):$/;"	f
+_fixed_padding	nets/mobilenet/conv_blocks.py	/^def _fixed_padding(inputs, kernel_size, rate=1):$/;"	f
+_fixed_padding	nets/mobilenet/mobilenet.py	/^def _fixed_padding(inputs, kernel_size, rate=1):$/;"	f
+_fixed_padding	nets/mobilenet_v1.py	/^def _fixed_padding(inputs, kernel_size, rate=1):$/;"	f
+_float_feature	datasets/build_imagenet_data.py	/^def _float_feature(value):$/;"	f
+_gather_clone_loss	deployment/model_deploy.py	/^def _gather_clone_loss(clone, num_clones, regularization_losses):$/;"	f
+_get_dataset_filename	datasets/download_and_convert_flowers.py	/^def _get_dataset_filename(dataset_dir, split_name, shard_id):$/;"	f
+_get_filenames_and_classes	datasets/download_and_convert_flowers.py	/^def _get_filenames_and_classes(dataset_dir):$/;"	f
+_get_init_fn	train_image_classifier.py	/^def _get_init_fn():$/;"	f
+_get_output_filename	datasets/download_and_convert_cifar10.py	/^def _get_output_filename(dataset_dir, split_name):$/;"	f
+_get_output_filename	datasets/download_and_convert_mnist.py	/^def _get_output_filename(dataset_dir, split_name):$/;"	f
+_get_variables_to_train	train_image_classifier.py	/^def _get_variables_to_train():$/;"	f
+_imagenet_stem	nets/nasnet/nasnet.py	/^def _imagenet_stem(inputs, hparams, stem_cell, current_step=None):$/;"	f
+_initializer	nets/i3d_utils.py	/^  def _initializer(shape, dtype=tf.float32, partition_info=None):  # pylint: disable=unused-argument$/;"	f	function:center_initializer
+_input_and_output_same_shape_helper	nets/cyclegan_test.py	/^  def _input_and_output_same_shape_helper(self, kernel_size):$/;"	m	class:CycleganTest
+_int64_feature	datasets/build_imagenet_data.py	/^def _int64_feature(value):$/;"	f
+_is_cmyk	datasets/build_imagenet_data.py	/^def _is_cmyk(filename):$/;"	f
+_is_png	datasets/build_imagenet_data.py	/^def _is_png(filename):$/;"	f
+_layer_output_size	nets/pix2pix_test.py	/^  def _layer_output_size(self, input_size, kernel_size=4, stride=2, pad=2):$/;"	m	class:DiscriminatorTest
+_make_divisible	nets/mobilenet/conv_blocks.py	/^def _make_divisible(v, divisor, min_value=None):$/;"	f
+_make_divisible	nets/mobilenet/mobilenet.py	/^def _make_divisible(v, divisor, min_value=None):$/;"	f
+_mean_image_subtraction	preprocessing/vgg_preprocessing.py	/^def _mean_image_subtraction(image, means):$/;"	f
+_operation_to_filter_shape	nets/nasnet/nasnet_utils.py	/^def _operation_to_filter_shape(operation):$/;"	f
+_operation_to_info	nets/nasnet/nasnet_utils.py	/^def _operation_to_info(operation):$/;"	f
+_operation_to_num_layers	nets/nasnet/nasnet_utils.py	/^def _operation_to_num_layers(operation):$/;"	f
+_operation_to_pooling_info	nets/nasnet/nasnet_utils.py	/^def _operation_to_pooling_info(operation):$/;"	f
+_operation_to_pooling_shape	nets/nasnet/nasnet_utils.py	/^def _operation_to_pooling_shape(operation):$/;"	f
+_operation_to_pooling_type	nets/nasnet/nasnet_utils.py	/^def _operation_to_pooling_type(operation):$/;"	f
+_optimize_clone	deployment/model_deploy.py	/^def _optimize_clone(optimizer, clone, num_clones, regularization_losses,$/;"	f
+_pooling	nets/nasnet/nasnet_utils.py	/^def _pooling(net, stride, operation, use_bounded_activation):$/;"	f
+_process_dataset	datasets/build_imagenet_data.py	/^def _process_dataset(name, directory, num_shards, synset_to_human,$/;"	f
+_process_image	datasets/build_imagenet_data.py	/^def _process_image(filename, coder):$/;"	f
+_process_image_files	datasets/build_imagenet_data.py	/^def _process_image_files(name, filenames, synsets, labels, humans,$/;"	f
+_process_image_files_batch	datasets/build_imagenet_data.py	/^def _process_image_files_batch(coder, thread_index, ranges, name, filenames,$/;"	f
+_progress	datasets/dataset_utils.py	/^  def _progress(count, block_size, total_size):$/;"	f	function:download_and_uncompress_tarball
+_progress	datasets/download_and_convert_cifar10.py	/^    def _progress(count, block_size, total_size):$/;"	f	function:_download_and_uncompress_dataset
+_progress	datasets/download_and_convert_mnist.py	/^      def _progress(count, block_size, total_size):$/;"	f	function:_download_dataset
+_random_crop	preprocessing/vgg_preprocessing.py	/^def _random_crop(image_list, crop_height, crop_width):$/;"	f
+_reduce_prev_layer	nets/nasnet/nasnet_utils.py	/^  def _reduce_prev_layer(self, prev_layer, curr_layer):$/;"	m	class:NasNetABaseCell
+_reduced_default_blocks	nets/pix2pix_test.py	/^  def _reduced_default_blocks(self):$/;"	m	class:GeneratorTest
+_reduced_kernel_size_for_small_input	nets/inception_v2.py	/^def _reduced_kernel_size_for_small_input(input_tensor, kernel_size):$/;"	f
+_reduced_kernel_size_for_small_input	nets/inception_v3.py	/^def _reduced_kernel_size_for_small_input(input_tensor, kernel_size):$/;"	f
+_reduced_kernel_size_for_small_input	nets/mobilenet_v1.py	/^def _reduced_kernel_size_for_small_input(input_tensor, kernel_size):$/;"	f
+_resnet_plain	nets/resnet_v1_test.py	/^  def _resnet_plain(self, inputs, blocks, output_stride=None, scope=None):$/;"	m	class:ResnetUtilsTest
+_resnet_plain	nets/resnet_v2_test.py	/^  def _resnet_plain(self, inputs, blocks, output_stride=None, scope=None):$/;"	m	class:ResnetUtilsTest
+_resnet_small	nets/resnet_v1_test.py	/^  def _resnet_small(self,$/;"	m	class:ResnetCompleteNetworkTest
+_resnet_small	nets/resnet_v2_test.py	/^  def _resnet_small(self,$/;"	m	class:ResnetCompleteNetworkTest
+_scope_all	nets/mobilenet/mobilenet.py	/^def _scope_all(scope, default_scope=None):$/;"	f
+_set_arg_scope_defaults	nets/mobilenet/mobilenet.py	/^def _set_arg_scope_defaults(defaults):$/;"	f
+_smallest_size_at_least	preprocessing/vgg_preprocessing.py	/^def _smallest_size_at_least(height, width, smallest_side):$/;"	f
+_split_divisible	nets/mobilenet/conv_blocks.py	/^def _split_divisible(num, num_ways, divisible_by=8):$/;"	f
+_stack_blocks_nondense	nets/resnet_v1_test.py	/^  def _stack_blocks_nondense(self, net, blocks):$/;"	m	class:ResnetUtilsTest
+_stack_blocks_nondense	nets/resnet_v2_test.py	/^  def _stack_blocks_nondense(self, net, blocks):$/;"	m	class:ResnetUtilsTest
+_stacked_separable_conv	nets/nasnet/nasnet_utils.py	/^def _stacked_separable_conv(net, stride, operation, filter_size,$/;"	f
+_sum_clones_gradients	deployment/model_deploy.py	/^def _sum_clones_gradients(clone_grads):$/;"	f
+_test_generator_graph_helper	nets/cyclegan_test.py	/^  def _test_generator_graph_helper(self, shape):$/;"	m	class:CycleganTest
+_update_hparams	nets/nasnet/nasnet.py	/^def _update_hparams(hparams, is_training):$/;"	f
+_v1_compatible_scope_naming	nets/mobilenet/conv_blocks.py	/^def _v1_compatible_scope_naming(scope):$/;"	f
+_validate_image_inputs	nets/dcgan.py	/^def _validate_image_inputs(inputs):$/;"	f
+absolute_import	datasets/build_imagenet_data.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/cifar10.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/dataset_factory.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/dataset_utils.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/download_and_convert_cifar10.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/download_and_convert_flowers.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/download_and_convert_mnist.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/flowers.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/imagenet.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/mnist.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/preprocess_imagenet_validation_data.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	datasets/process_bounding_boxes.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	deployment/model_deploy.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	deployment/model_deploy_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	download_and_convert_data.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	eval_image_classifier.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	export_inference_graph.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	export_inference_graph_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/alexnet.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/alexnet_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/cifarnet.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/cyclegan.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/cyclegan_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/dcgan.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/dcgan_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/i3d.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/i3d_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/i3d_utils.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_resnet_v2.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_resnet_v2_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_utils.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_v1.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_v1_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_v2.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_v2_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_v3.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_v3_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_v4.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/inception_v4_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/lenet.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/mobilenet/mobilenet.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/mobilenet/mobilenet_v2.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/mobilenet/mobilenet_v2_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/mobilenet_v1.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/mobilenet_v1_eval.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/mobilenet_v1_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/mobilenet_v1_train.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/nasnet/nasnet.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/nasnet/nasnet_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/nasnet/nasnet_utils.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/nasnet/nasnet_utils_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/nasnet/pnasnet.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/nasnet/pnasnet_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/nets_factory.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/nets_factory_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/overfeat.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/overfeat_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/pix2pix.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/pix2pix_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/resnet_utils.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/resnet_v1.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/resnet_v1_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/resnet_v2.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/resnet_v2_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/s3dg.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/s3dg_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/vgg.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	nets/vgg_test.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	preprocessing/cifarnet_preprocessing.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	preprocessing/inception_preprocessing.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	preprocessing/lenet_preprocessing.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	preprocessing/preprocessing_factory.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	preprocessing/vgg_preprocessing.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	train_image_classifier.py	/^from __future__ import absolute_import$/;"	i
+add_and_check_endpoint	nets/nasnet/nasnet.py	/^  def add_and_check_endpoint(endpoint_name, net):$/;"	f	function:_build_nasnet_base
+add_and_check_endpoint	nets/nasnet/pnasnet.py	/^  def add_and_check_endpoint(endpoint_name, net):$/;"	f	function:_build_pnasnet_base
+add_and_check_final	nets/inception_resnet_v2.py	/^  def add_and_check_final(name, net):$/;"	f	function:inception_resnet_v2_base
+add_and_check_final	nets/inception_v4.py	/^  def add_and_check_final(name, net):$/;"	f	function:inception_v4_base
+add_arg_scope	nets/i3d_utils.py	/^add_arg_scope = tf.contrib.framework.add_arg_scope$/;"	v
+alexnet	nets/alexnet_test.py	/^from nets import alexnet$/;"	i
+alexnet	nets/nets_factory.py	/^from nets import alexnet$/;"	i
+alexnet_v2	nets/alexnet.py	/^def alexnet_v2(inputs,$/;"	f
+alexnet_v2_arg_scope	nets/alexnet.py	/^def alexnet_v2_arg_scope(weight_decay=0.0005):$/;"	f
+apply_activation	nets/mobilenet/mobilenet.py	/^def apply_activation(x, name=None, activation_fn=None):$/;"	f
+apply_with_random_selector	preprocessing/inception_preprocessing.py	/^def apply_with_random_selector(x, func, num_cases):$/;"	f
+arg_scope	nets/nasnet/nasnet.py	/^arg_scope = tf.contrib.framework.arg_scope$/;"	v
+arg_scope	nets/nasnet/nasnet_utils.py	/^arg_scope = tf.contrib.framework.arg_scope$/;"	v
+arg_scope	nets/nasnet/pnasnet.py	/^arg_scope = tf.contrib.framework.arg_scope$/;"	v
+arg_scope	nets/s3dg.py	/^arg_scope = tf.contrib.framework.arg_scope$/;"	v
+arg_scopes_map	nets/nets_factory.py	/^arg_scopes_map = {'alexnet_v2': alexnet.alexnet_v2_arg_scope,$/;"	v
+basename	datasets/preprocess_imagenet_validation_data.py	/^    basename = 'ILSVRC2012_val_000%.5d.JPEG' % (i + 1)$/;"	v
+bboxes	datasets/process_bounding_boxes.py	/^    bboxes = ProcessXMLAnnotation(one_file)$/;"	v
+block17	nets/inception_resnet_v2.py	/^def block17(net, scale=1.0, activation_fn=tf.nn.relu, scope=None, reuse=None):$/;"	f
+block35	nets/inception_resnet_v2.py	/^def block35(net, scale=1.0, activation_fn=tf.nn.relu, scope=None, reuse=None):$/;"	f
+block8	nets/inception_resnet_v2.py	/^def block8(net, scale=1.0, activation_fn=tf.nn.relu, scope=None, reuse=None):$/;"	f
+block_inception_a	nets/inception_v4.py	/^def block_inception_a(inputs, scope=None, reuse=None):$/;"	f
+block_inception_b	nets/inception_v4.py	/^def block_inception_b(inputs, scope=None, reuse=None):$/;"	f
+block_inception_c	nets/inception_v4.py	/^def block_inception_c(inputs, scope=None, reuse=None):$/;"	f
+block_reduction_a	nets/inception_v4.py	/^def block_reduction_a(inputs, scope=None, reuse=None):$/;"	f
+block_reduction_b	nets/inception_v4.py	/^def block_reduction_b(inputs, scope=None, reuse=None):$/;"	f
+bottleneck	nets/resnet_v1.py	/^def bottleneck(inputs,$/;"	f
+bottleneck	nets/resnet_v2.py	/^def bottleneck(inputs, depth, depth_bottleneck, stride, rate=1,$/;"	f
+build_model	nets/mobilenet_v1_eval.py	/^def build_model():$/;"	f
+build_model	nets/mobilenet_v1_train.py	/^def build_model():$/;"	f
+build_nasnet_cifar	nets/nasnet/nasnet.py	/^def build_nasnet_cifar(images, num_classes,$/;"	f
+build_nasnet_large	nets/nasnet/nasnet.py	/^def build_nasnet_large(images, num_classes,$/;"	f
+build_nasnet_mobile	nets/nasnet/nasnet.py	/^def build_nasnet_mobile(images, num_classes,$/;"	f
+build_pnasnet_large	nets/nasnet/pnasnet.py	/^def build_pnasnet_large(images,$/;"	f
+build_pnasnet_mobile	nets/nasnet/pnasnet.py	/^def build_pnasnet_mobile(images,$/;"	f
+builtin	datasets/build_imagenet_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+builtin	datasets/preprocess_imagenet_validation_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+builtin	datasets/process_bounding_boxes.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+builtin	nets/cyclegan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+builtin	nets/dcgan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+builtin	nets/dcgan_test.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+bytes_feature	datasets/dataset_utils.py	/^def bytes_feature(values):$/;"	f
+cPickle	datasets/download_and_convert_cifar10.py	/^from six.moves import cPickle$/;"	i
+caching_device	deployment/model_deploy.py	/^  def caching_device(self):$/;"	m	class:DeploymentConfig
+calc_reduction_layers	nets/nasnet/nasnet_utils.py	/^def calc_reduction_layers(num_cells, num_reduction_layers):$/;"	f
+center_initializer	nets/i3d_utils.py	/^def center_initializer():$/;"	f
+choose	deployment/model_deploy.py	/^      def choose(self, op):$/;"	m	class:DeploymentConfig.variables_device._PSDeviceChooser
+chooser	deployment/model_deploy.py	/^      chooser = _PSDeviceChooser(device, self._num_ps_tasks)$/;"	v	class:DeploymentConfig.variables_device._PSDeviceChooser
+cifar10	datasets/dataset_factory.py	/^from datasets import cifar10$/;"	i
+cifar_config	nets/nasnet/nasnet.py	/^def cifar_config():$/;"	f
+cifarnet	nets/cifarnet.py	/^def cifarnet(images, num_classes=10, is_training=False,$/;"	f
+cifarnet	nets/nets_factory.py	/^from nets import cifarnet$/;"	i
+cifarnet_arg_scope	nets/cifarnet.py	/^def cifarnet_arg_scope(weight_decay=0.004):$/;"	f
+cifarnet_preprocessing	preprocessing/preprocessing_factory.py	/^from preprocessing import cifarnet_preprocessing$/;"	i
+clone_device	deployment/model_deploy.py	/^  def clone_device(self, clone_index):$/;"	m	class:DeploymentConfig
+clone_fn	train_image_classifier.py	/^    def clone_fn(batch_queue):$/;"	f	function:main
+clone_on_cpu	deployment/model_deploy.py	/^  def clone_on_cpu(self):$/;"	m	class:DeploymentConfig
+clone_scope	deployment/model_deploy.py	/^  def clone_scope(self, clone_index):$/;"	m	class:DeploymentConfig
+cmyk_to_rgb	datasets/build_imagenet_data.py	/^  def cmyk_to_rgb(self, image_data):$/;"	m	class:ImageCoder
+collections	deployment/model_deploy.py	/^import collections$/;"	i
+collections	nets/mobilenet/mobilenet.py	/^import collections$/;"	i
+collections	nets/pix2pix.py	/^import collections$/;"	i
+collections	nets/resnet_utils.py	/^import collections$/;"	i
+contextlib	nets/mobilenet/conv_blocks.py	/^import contextlib$/;"	i
+contextlib	nets/mobilenet/mobilenet.py	/^import contextlib$/;"	i
+control_flow_ops	preprocessing/inception_preprocessing.py	/^from tensorflow.python.ops import control_flow_ops$/;"	i
+conv2d_same	nets/resnet_utils.py	/^def conv2d_same(inputs, num_outputs, kernel_size, stride, rate=1, scope=None):$/;"	f
+conv3d_spatiotemporal	nets/i3d.py	/^conv3d_spatiotemporal = i3d_utils.conv3d_spatiotemporal$/;"	v
+conv3d_spatiotemporal	nets/i3d_utils.py	/^def conv3d_spatiotemporal(inputs,$/;"	f
+conv3d_spatiotemporal	nets/s3dg.py	/^conv3d_spatiotemporal = i3d_utils.conv3d_spatiotemporal$/;"	v
+copy	nets/mobilenet/mobilenet.py	/^import copy$/;"	i
+copy	nets/mobilenet/mobilenet_v2.py	/^import copy$/;"	i
+copy	nets/mobilenet/mobilenet_v2_test.py	/^import copy$/;"	i
+copy	nets/nasnet/nasnet.py	/^import copy$/;"	i
+copy	nets/nasnet/pnasnet.py	/^import copy$/;"	i
+create_clones	deployment/model_deploy.py	/^def create_clones(config, model_fn, args=None, kwargs=None):$/;"	f
+create_readable_names_for_imagenet_labels	datasets/imagenet.py	/^def create_readable_names_for_imagenet_labels():$/;"	f
+create_test_input	nets/resnet_v1_test.py	/^def create_test_input(batch_size, height, width, channels):$/;"	f
+create_test_input	nets/resnet_v2_test.py	/^def create_test_input(batch_size, height, width, channels):$/;"	f
+cyclegan	nets/cyclegan_test.py	/^from nets import cyclegan$/;"	i
+cyclegan_arg_scope	nets/cyclegan.py	/^def cyclegan_arg_scope(instance_norm_center=True,$/;"	f
+cyclegan_generator_resnet	nets/cyclegan.py	/^def cyclegan_generator_resnet(images,$/;"	f
+cyclegan_upsample	nets/cyclegan.py	/^def cyclegan_upsample(net, num_outputs, stride, method='conv2d_transpose',$/;"	f
+data_dir	datasets/preprocess_imagenet_validation_data.py	/^  data_dir = sys.argv[1]$/;"	v
+dataset_factory	eval_image_classifier.py	/^from datasets import dataset_factory$/;"	i
+dataset_factory	export_inference_graph.py	/^from datasets import dataset_factory$/;"	i
+dataset_factory	nets/mobilenet_v1_eval.py	/^from datasets import dataset_factory$/;"	i
+dataset_factory	nets/mobilenet_v1_train.py	/^from datasets import dataset_factory$/;"	i
+dataset_factory	train_image_classifier.py	/^from datasets import dataset_factory$/;"	i
+dataset_utils	datasets/cifar10.py	/^from datasets import dataset_utils$/;"	i
+dataset_utils	datasets/download_and_convert_cifar10.py	/^from datasets import dataset_utils$/;"	i
+dataset_utils	datasets/download_and_convert_flowers.py	/^from datasets import dataset_utils$/;"	i
+dataset_utils	datasets/download_and_convert_mnist.py	/^from datasets import dataset_utils$/;"	i
+dataset_utils	datasets/flowers.py	/^from datasets import dataset_utils$/;"	i
+dataset_utils	datasets/imagenet.py	/^from datasets import dataset_utils$/;"	i
+dataset_utils	datasets/mnist.py	/^from datasets import dataset_utils$/;"	i
+datasets_map	datasets/dataset_factory.py	/^datasets_map = {$/;"	v
+datetime	datasets/build_imagenet_data.py	/^from datetime import datetime$/;"	i
+dcgan	nets/dcgan_test.py	/^from nets import dcgan$/;"	i
+decode_jpeg	datasets/build_imagenet_data.py	/^  def decode_jpeg(self, image_data):$/;"	m	class:ImageCoder
+decode_jpeg	datasets/download_and_convert_flowers.py	/^  def decode_jpeg(self, sess, image_data):$/;"	m	class:ImageReader
+defaults	nets/mobilenet/mobilenet_v2.py	/^    defaults={$/;"	v
+deploy	deployment/model_deploy.py	/^def deploy(config,$/;"	f
+depth_multiplier	nets/mobilenet/mobilenet.py	/^def depth_multiplier(output_params,$/;"	f
+description	setup.py	/^    description='tf-slim',$/;"	v
+disable	datasets/build_imagenet_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+disable	datasets/preprocess_imagenet_validation_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+disable	datasets/process_bounding_boxes.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+disable	nets/cyclegan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+disable	nets/dcgan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+disable	nets/dcgan_test.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+discriminator	nets/dcgan.py	/^def discriminator(inputs,$/;"	f
+distort_color	preprocessing/inception_preprocessing.py	/^def distort_color(image, color_ordering=0, fast_mode=True, scope=None):$/;"	f
+distorted_bounding_box_crop	preprocessing/inception_preprocessing.py	/^def distorted_bounding_box_crop(image,$/;"	f
+division	datasets/build_imagenet_data.py	/^from __future__ import division$/;"	i
+division	datasets/cifar10.py	/^from __future__ import division$/;"	i
+division	datasets/dataset_factory.py	/^from __future__ import division$/;"	i
+division	datasets/dataset_utils.py	/^from __future__ import division$/;"	i
+division	datasets/download_and_convert_cifar10.py	/^from __future__ import division$/;"	i
+division	datasets/download_and_convert_flowers.py	/^from __future__ import division$/;"	i
+division	datasets/download_and_convert_mnist.py	/^from __future__ import division$/;"	i
+division	datasets/flowers.py	/^from __future__ import division$/;"	i
+division	datasets/imagenet.py	/^from __future__ import division$/;"	i
+division	datasets/mnist.py	/^from __future__ import division$/;"	i
+division	datasets/preprocess_imagenet_validation_data.py	/^from __future__ import division$/;"	i
+division	datasets/process_bounding_boxes.py	/^from __future__ import division$/;"	i
+division	deployment/model_deploy.py	/^from __future__ import division$/;"	i
+division	deployment/model_deploy_test.py	/^from __future__ import division$/;"	i
+division	download_and_convert_data.py	/^from __future__ import division$/;"	i
+division	eval_image_classifier.py	/^from __future__ import division$/;"	i
+division	export_inference_graph.py	/^from __future__ import division$/;"	i
+division	export_inference_graph_test.py	/^from __future__ import division$/;"	i
+division	nets/alexnet.py	/^from __future__ import division$/;"	i
+division	nets/alexnet_test.py	/^from __future__ import division$/;"	i
+division	nets/cifarnet.py	/^from __future__ import division$/;"	i
+division	nets/cyclegan.py	/^from __future__ import division$/;"	i
+division	nets/cyclegan_test.py	/^from __future__ import division$/;"	i
+division	nets/dcgan.py	/^from __future__ import division$/;"	i
+division	nets/dcgan_test.py	/^from __future__ import division$/;"	i
+division	nets/i3d.py	/^from __future__ import division$/;"	i
+division	nets/i3d_test.py	/^from __future__ import division$/;"	i
+division	nets/i3d_utils.py	/^from __future__ import division$/;"	i
+division	nets/inception.py	/^from __future__ import division$/;"	i
+division	nets/inception_resnet_v2.py	/^from __future__ import division$/;"	i
+division	nets/inception_resnet_v2_test.py	/^from __future__ import division$/;"	i
+division	nets/inception_utils.py	/^from __future__ import division$/;"	i
+division	nets/inception_v1.py	/^from __future__ import division$/;"	i
+division	nets/inception_v1_test.py	/^from __future__ import division$/;"	i
+division	nets/inception_v2.py	/^from __future__ import division$/;"	i
+division	nets/inception_v2_test.py	/^from __future__ import division$/;"	i
+division	nets/inception_v3.py	/^from __future__ import division$/;"	i
+division	nets/inception_v3_test.py	/^from __future__ import division$/;"	i
+division	nets/inception_v4.py	/^from __future__ import division$/;"	i
+division	nets/inception_v4_test.py	/^from __future__ import division$/;"	i
+division	nets/lenet.py	/^from __future__ import division$/;"	i
+division	nets/mobilenet/mobilenet.py	/^from __future__ import division$/;"	i
+division	nets/mobilenet/mobilenet_v2.py	/^from __future__ import division$/;"	i
+division	nets/mobilenet/mobilenet_v2_test.py	/^from __future__ import division$/;"	i
+division	nets/mobilenet_v1.py	/^from __future__ import division$/;"	i
+division	nets/mobilenet_v1_eval.py	/^from __future__ import division$/;"	i
+division	nets/mobilenet_v1_test.py	/^from __future__ import division$/;"	i
+division	nets/mobilenet_v1_train.py	/^from __future__ import division$/;"	i
+division	nets/nasnet/nasnet.py	/^from __future__ import division$/;"	i
+division	nets/nasnet/nasnet_test.py	/^from __future__ import division$/;"	i
+division	nets/nasnet/nasnet_utils.py	/^from __future__ import division$/;"	i
+division	nets/nasnet/nasnet_utils_test.py	/^from __future__ import division$/;"	i
+division	nets/nasnet/pnasnet.py	/^from __future__ import division$/;"	i
+division	nets/nasnet/pnasnet_test.py	/^from __future__ import division$/;"	i
+division	nets/nets_factory.py	/^from __future__ import division$/;"	i
+division	nets/nets_factory_test.py	/^from __future__ import division$/;"	i
+division	nets/overfeat.py	/^from __future__ import division$/;"	i
+division	nets/overfeat_test.py	/^from __future__ import division$/;"	i
+division	nets/pix2pix.py	/^from __future__ import division$/;"	i
+division	nets/pix2pix_test.py	/^from __future__ import division$/;"	i
+division	nets/resnet_utils.py	/^from __future__ import division$/;"	i
+division	nets/resnet_v1.py	/^from __future__ import division$/;"	i
+division	nets/resnet_v1_test.py	/^from __future__ import division$/;"	i
+division	nets/resnet_v2.py	/^from __future__ import division$/;"	i
+division	nets/resnet_v2_test.py	/^from __future__ import division$/;"	i
+division	nets/s3dg.py	/^from __future__ import division$/;"	i
+division	nets/s3dg_test.py	/^from __future__ import division$/;"	i
+division	nets/vgg.py	/^from __future__ import division$/;"	i
+division	nets/vgg_test.py	/^from __future__ import division$/;"	i
+division	preprocessing/cifarnet_preprocessing.py	/^from __future__ import division$/;"	i
+division	preprocessing/inception_preprocessing.py	/^from __future__ import division$/;"	i
+division	preprocessing/lenet_preprocessing.py	/^from __future__ import division$/;"	i
+division	preprocessing/preprocessing_factory.py	/^from __future__ import division$/;"	i
+division	preprocessing/vgg_preprocessing.py	/^from __future__ import division$/;"	i
+division	train_image_classifier.py	/^from __future__ import division$/;"	i
+download_and_convert_cifar10	download_and_convert_data.py	/^from datasets import download_and_convert_cifar10$/;"	i
+download_and_convert_flowers	download_and_convert_data.py	/^from datasets import download_and_convert_flowers$/;"	i
+download_and_convert_mnist	download_and_convert_data.py	/^from datasets import download_and_convert_mnist$/;"	i
+download_and_uncompress_tarball	datasets/dataset_utils.py	/^def download_and_uncompress_tarball(tarball_url, dataset_dir):$/;"	f
+drop_path	nets/nasnet/nasnet_utils.py	/^def drop_path(net, keep_prob, is_training=True):$/;"	f
+etree	datasets/process_bounding_boxes.py	/^import xml.etree.ElementTree as ET$/;"	i
+eval_model	nets/mobilenet_v1_eval.py	/^def eval_model():$/;"	f
+expand_input	nets/mobilenet/mobilenet_v2.py	/^expand_input = ops.expand_input_by_factor$/;"	v
+expand_input_by_factor	nets/mobilenet/conv_blocks.py	/^def expand_input_by_factor(n, divisible_by=8):$/;"	f
+expanded_conv	nets/mobilenet/conv_blocks.py	/^def expanded_conv(input_tensor,$/;"	f
+expansion_size	nets/mobilenet/mobilenet_v2.py	/^           expansion_size=expand_input(1, divisible_by=1),$/;"	v
+export_inference_graph	export_inference_graph_test.py	/^import export_inference_graph$/;"	i
+factorized_reduction	nets/nasnet/nasnet_utils.py	/^def factorized_reduction(net, output_filters, stride, data_format=INVALID):$/;"	f
+file	datasets/process_bounding_boxes.py	/^            file=sys.stderr)$/;"	v
+file	datasets/process_bounding_boxes.py	/^          file=sys.stderr)$/;"	v
+file	datasets/process_bounding_boxes.py	/^        file=sys.stderr)$/;"	v
+find_ops	nets/mobilenet/mobilenet_v2_test.py	/^def find_ops(optype):$/;"	f
+find_packages	setup.py	/^from setuptools import find_packages$/;"	i
+finegrain_classification_mode	nets/mobilenet/mobilenet_v2.py	/^                                   finegrain_classification_mode=True)$/;"	v
+flags	nets/mobilenet_v1_eval.py	/^flags = tf.app.flags$/;"	v
+flags	nets/mobilenet_v1_train.py	/^flags = tf.app.flags$/;"	v
+float_feature	datasets/dataset_utils.py	/^def float_feature(values):$/;"	f
+flowers	datasets/dataset_factory.py	/^from datasets import flowers$/;"	i
+found_box	datasets/process_bounding_boxes.py	/^      found_box = True$/;"	v
+found_box	datasets/process_bounding_boxes.py	/^    found_box = False$/;"	v
+functools	nets/mobilenet/conv_blocks.py	/^import functools$/;"	i
+functools	nets/mobilenet/mobilenet_v2.py	/^import functools$/;"	i
+functools	nets/mobilenet_v1.py	/^import functools$/;"	i
+functools	nets/nets_factory.py	/^import functools$/;"	i
+functools	nets/pix2pix.py	/^import functools$/;"	i
+gating_fn	nets/s3dg.py	/^  def gating_fn(inputs, scope):$/;"	f	function:s3dg_base
+generator	nets/dcgan.py	/^def generator(inputs,$/;"	f
+get_channel_dim	nets/nasnet/nasnet_utils.py	/^def get_channel_dim(shape, data_format=INVALID):$/;"	f
+get_channel_index	nets/nasnet/nasnet_utils.py	/^def get_channel_index(data_format=INVALID):$/;"	f
+get_checkpoint_init_fn	nets/mobilenet_v1_train.py	/^def get_checkpoint_init_fn():$/;"	f
+get_dataset	datasets/dataset_factory.py	/^def get_dataset(name, split_name, dataset_dir, file_pattern=None, reader=None):$/;"	f
+get_learning_rate	nets/mobilenet_v1_train.py	/^def get_learning_rate():$/;"	f
+get_network_fn	nets/nets_factory.py	/^def get_network_fn(name, num_classes, weight_decay=0.0, is_training=False):$/;"	f
+get_preprocessing	preprocessing/preprocessing_factory.py	/^def get_preprocessing(name, is_training=False):$/;"	f
+get_quant_delay	nets/mobilenet_v1_train.py	/^def get_quant_delay():$/;"	f
+get_split	datasets/cifar10.py	/^def get_split(split_name, dataset_dir, file_pattern=None, reader=None):$/;"	f
+get_split	datasets/flowers.py	/^def get_split(split_name, dataset_dir, file_pattern=None, reader=None):$/;"	f
+get_split	datasets/imagenet.py	/^def get_split(split_name, dataset_dir, file_pattern=None, reader=None):$/;"	f
+get_split	datasets/mnist.py	/^def get_split(split_name, dataset_dir, file_pattern=None, reader=None):$/;"	f
+gfile	export_inference_graph.py	/^from tensorflow.python.platform import gfile$/;"	i
+gfile	export_inference_graph_test.py	/^from tensorflow.python.platform import gfile$/;"	i
+glob	datasets/process_bounding_boxes.py	/^import glob$/;"	i
+global_avg_pool	nets/nasnet/nasnet_utils.py	/^def global_avg_pool(x, data_format=INVALID):$/;"	f
+global_pool	nets/mobilenet/mobilenet.py	/^def global_pool(input_tensor, pool_op=tf.nn.avg_pool):$/;"	f
+gzip	datasets/download_and_convert_mnist.py	/^import gzip$/;"	i
+has_labels	datasets/dataset_utils.py	/^def has_labels(dataset_dir, filename=LABELS_FILENAME):$/;"	f
+i3d	nets/i3d.py	/^def i3d(inputs,$/;"	f
+i3d	nets/i3d_test.py	/^from nets import i3d$/;"	i
+i3d	nets/nets_factory.py	/^from nets import i3d$/;"	i
+i3d_arg_scope	nets/i3d.py	/^def i3d_arg_scope(weight_decay=1e-7,$/;"	f
+i3d_base	nets/i3d.py	/^def i3d_base(inputs, final_endpoint='Mixed_5c',$/;"	f
+i3d_utils	nets/i3d.py	/^from nets import i3d_utils$/;"	i
+i3d_utils	nets/s3dg.py	/^from nets import i3d_utils$/;"	i
+image_filename	datasets/process_bounding_boxes.py	/^      image_filename = os.path.splitext(os.path.basename(one_file))[0]$/;"	v
+image_to_tfexample	datasets/dataset_utils.py	/^def image_to_tfexample(image_data, image_format, height, width, class_id):$/;"	f
+imagenet	datasets/dataset_factory.py	/^from datasets import imagenet$/;"	i
+imagenet_input	nets/mobilenet_v1_eval.py	/^def imagenet_input(is_training):$/;"	f
+imagenet_input	nets/mobilenet_v1_train.py	/^def imagenet_input(is_training):$/;"	f
+inception	nets/inception_resnet_v2_test.py	/^from nets import inception$/;"	i
+inception	nets/inception_v1_test.py	/^from nets import inception$/;"	i
+inception	nets/inception_v2_test.py	/^from nets import inception$/;"	i
+inception	nets/inception_v3_test.py	/^from nets import inception$/;"	i
+inception	nets/inception_v4_test.py	/^from nets import inception$/;"	i
+inception	nets/nets_factory.py	/^from nets import inception$/;"	i
+inception_arg_scope	nets/inception_utils.py	/^def inception_arg_scope(weight_decay=0.00004,$/;"	f
+inception_block_v1_3d	nets/i3d_utils.py	/^def inception_block_v1_3d(inputs,$/;"	f
+inception_block_v1_3d	nets/s3dg.py	/^inception_block_v1_3d = i3d_utils.inception_block_v1_3d$/;"	v
+inception_preprocessing	preprocessing/preprocessing_factory.py	/^from preprocessing import inception_preprocessing$/;"	i
+inception_resnet_v2	nets/inception.py	/^from nets.inception_resnet_v2 import inception_resnet_v2$/;"	i
+inception_resnet_v2	nets/inception_resnet_v2.py	/^def inception_resnet_v2(inputs, num_classes=1001, is_training=True,$/;"	f
+inception_resnet_v2_arg_scope	nets/inception.py	/^from nets.inception_resnet_v2 import inception_resnet_v2_arg_scope$/;"	i
+inception_resnet_v2_arg_scope	nets/inception_resnet_v2.py	/^def inception_resnet_v2_arg_scope($/;"	f
+inception_resnet_v2_base	nets/inception.py	/^from nets.inception_resnet_v2 import inception_resnet_v2_base$/;"	i
+inception_resnet_v2_base	nets/inception_resnet_v2.py	/^def inception_resnet_v2_base(inputs,$/;"	f
+inception_utils	nets/inception_v1.py	/^from nets import inception_utils$/;"	i
+inception_utils	nets/inception_v2.py	/^from nets import inception_utils$/;"	i
+inception_utils	nets/inception_v3.py	/^from nets import inception_utils$/;"	i
+inception_utils	nets/inception_v4.py	/^from nets import inception_utils$/;"	i
+inception_v1	nets/inception.py	/^from nets.inception_v1 import inception_v1$/;"	i
+inception_v1	nets/inception_v1.py	/^def inception_v1(inputs,$/;"	f
+inception_v1_arg_scope	nets/inception.py	/^from nets.inception_v1 import inception_v1_arg_scope$/;"	i
+inception_v1_arg_scope	nets/inception_v1.py	/^inception_v1_arg_scope = inception_utils.inception_arg_scope$/;"	v
+inception_v1_base	nets/inception.py	/^from nets.inception_v1 import inception_v1_base$/;"	i
+inception_v1_base	nets/inception_v1.py	/^def inception_v1_base(inputs,$/;"	f
+inception_v2	nets/inception.py	/^from nets.inception_v2 import inception_v2$/;"	i
+inception_v2	nets/inception_v2.py	/^def inception_v2(inputs,$/;"	f
+inception_v2_arg_scope	nets/inception.py	/^from nets.inception_v2 import inception_v2_arg_scope$/;"	i
+inception_v2_arg_scope	nets/inception_v2.py	/^inception_v2_arg_scope = inception_utils.inception_arg_scope$/;"	v
+inception_v2_base	nets/inception.py	/^from nets.inception_v2 import inception_v2_base$/;"	i
+inception_v2_base	nets/inception_v2.py	/^def inception_v2_base(inputs,$/;"	f
+inception_v3	nets/inception.py	/^from nets.inception_v3 import inception_v3$/;"	i
+inception_v3	nets/inception_v3.py	/^def inception_v3(inputs,$/;"	f
+inception_v3_arg_scope	nets/inception.py	/^from nets.inception_v3 import inception_v3_arg_scope$/;"	i
+inception_v3_arg_scope	nets/inception_v3.py	/^inception_v3_arg_scope = inception_utils.inception_arg_scope$/;"	v
+inception_v3_base	nets/inception.py	/^from nets.inception_v3 import inception_v3_base$/;"	i
+inception_v3_base	nets/inception_v3.py	/^def inception_v3_base(inputs,$/;"	f
+inception_v4	nets/inception.py	/^from nets.inception_v4 import inception_v4$/;"	i
+inception_v4	nets/inception_v4.py	/^def inception_v4(inputs, num_classes=1001, is_training=True,$/;"	f
+inception_v4_arg_scope	nets/inception.py	/^from nets.inception_v4 import inception_v4_arg_scope$/;"	i
+inception_v4_arg_scope	nets/inception_v4.py	/^inception_v4_arg_scope = inception_utils.inception_arg_scope$/;"	v
+inception_v4_base	nets/inception.py	/^from nets.inception_v4 import inception_v4_base$/;"	i
+inception_v4_base	nets/inception_v4.py	/^def inception_v4_base(inputs, final_endpoint='Mixed_7d', scope=None):$/;"	f
+include_package_data	setup.py	/^    include_package_data=True,$/;"	v
+init_fn	nets/mobilenet_v1_train.py	/^    def init_fn(sess):$/;"	f	function:get_checkpoint_init_fn
+input_and_output_same_shape_kernel3	nets/cyclegan_test.py	/^  def input_and_output_same_shape_kernel3(self):$/;"	m	class:CycleganTest
+input_and_output_same_shape_kernel4	nets/cyclegan_test.py	/^  def input_and_output_same_shape_kernel4(self):$/;"	m	class:CycleganTest
+input_and_output_same_shape_kernel5	nets/cyclegan_test.py	/^  def input_and_output_same_shape_kernel5(self):$/;"	m	class:CycleganTest
+input_and_output_same_shape_kernel6	nets/cyclegan_test.py	/^  def input_and_output_same_shape_kernel6(self):$/;"	m	class:CycleganTest
+inputs_device	deployment/model_deploy.py	/^  def inputs_device(self):$/;"	m	class:DeploymentConfig
+int64_feature	datasets/dataset_utils.py	/^def int64_feature(values):$/;"	f
+label	datasets/process_bounding_boxes.py	/^    label = os.path.basename(os.path.dirname(one_file))$/;"	v
+labeled_data_dir	datasets/preprocess_imagenet_validation_data.py	/^    labeled_data_dir = os.path.join(data_dir, label)$/;"	v
+labels	datasets/preprocess_imagenet_validation_data.py	/^  labels = [l.strip() for l in open(validation_labels_file).readlines()]$/;"	v
+labels	datasets/process_bounding_boxes.py	/^    labels = None$/;"	v
+labels	datasets/process_bounding_boxes.py	/^    labels = set([l.strip() for l in open(sys.argv[2]).readlines()])$/;"	v
+large_imagenet_config	nets/nasnet/nasnet.py	/^def large_imagenet_config():$/;"	f
+large_imagenet_config	nets/nasnet/pnasnet.py	/^def large_imagenet_config():$/;"	f
+layers	nets/cyclegan.py	/^layers = tf.contrib.layers$/;"	v
+layers	nets/i3d_utils.py	/^layers = tf.contrib.layers$/;"	v
+layers	nets/pix2pix.py	/^layers = tf.contrib.layers$/;"	v
+layers	nets/s3dg.py	/^layers = tf.contrib.layers$/;"	v
+lenet	nets/lenet.py	/^def lenet(images, num_classes=10, is_training=False,$/;"	f
+lenet	nets/nets_factory.py	/^from nets import lenet$/;"	i
+lenet_arg_scope	nets/lenet.py	/^def lenet_arg_scope(weight_decay=0.0):$/;"	f
+lenet_preprocessing	preprocessing/preprocessing_factory.py	/^from preprocessing import lenet_preprocessing$/;"	i
+lib	nets/mobilenet/mobilenet_v2.py	/^from nets.mobilenet import mobilenet as lib$/;"	i
+log	nets/dcgan.py	/^from math import log$/;"	i
+main	datasets/build_imagenet_data.py	/^def main(unused_argv):$/;"	f
+main	download_and_convert_data.py	/^def main(_):$/;"	f
+main	eval_image_classifier.py	/^def main(_):$/;"	f
+main	export_inference_graph.py	/^def main(_):$/;"	f
+main	nets/mobilenet_v1_eval.py	/^def main(unused_arg):$/;"	f
+main	nets/mobilenet_v1_train.py	/^def main(unused_arg):$/;"	f
+main	train_image_classifier.py	/^def main(_):$/;"	f
+math	datasets/download_and_convert_flowers.py	/^import math$/;"	i
+math	eval_image_classifier.py	/^import math$/;"	i
+math	nets/mobilenet_v1_eval.py	/^import math$/;"	i
+metrics	nets/mobilenet_v1_eval.py	/^def metrics(logits, labels):$/;"	f
+mnist	datasets/dataset_factory.py	/^from datasets import mnist$/;"	i
+mobile_imagenet_config	nets/nasnet/nasnet.py	/^def mobile_imagenet_config():$/;"	f
+mobile_imagenet_config	nets/nasnet/pnasnet.py	/^def mobile_imagenet_config():$/;"	f
+mobilenet	nets/mobilenet/mobilenet.py	/^def mobilenet(inputs,$/;"	f
+mobilenet	nets/mobilenet/mobilenet_v2.py	/^def mobilenet(input_tensor,$/;"	f
+mobilenet	nets/mobilenet/mobilenet_v2_test.py	/^from nets.mobilenet import mobilenet$/;"	i
+mobilenet_base	nets/mobilenet/mobilenet.py	/^def mobilenet_base(  # pylint: disable=invalid-name$/;"	f
+mobilenet_base	nets/mobilenet/mobilenet_v2.py	/^def mobilenet_base(input_tensor, depth_multiplier=1.0, **kwargs):$/;"	f
+mobilenet_v1	nets/mobilenet_v1.py	/^def mobilenet_v1(inputs,$/;"	f
+mobilenet_v1	nets/mobilenet_v1_eval.py	/^from nets import mobilenet_v1$/;"	i
+mobilenet_v1	nets/mobilenet_v1_test.py	/^from nets import mobilenet_v1$/;"	i
+mobilenet_v1	nets/mobilenet_v1_train.py	/^from nets import mobilenet_v1$/;"	i
+mobilenet_v1	nets/nets_factory.py	/^from nets import mobilenet_v1$/;"	i
+mobilenet_v1_025	nets/mobilenet_v1.py	/^mobilenet_v1_025 = wrapped_partial(mobilenet_v1, depth_multiplier=0.25)$/;"	v
+mobilenet_v1_050	nets/mobilenet_v1.py	/^mobilenet_v1_050 = wrapped_partial(mobilenet_v1, depth_multiplier=0.50)$/;"	v
+mobilenet_v1_075	nets/mobilenet_v1.py	/^mobilenet_v1_075 = wrapped_partial(mobilenet_v1, depth_multiplier=0.75)$/;"	v
+mobilenet_v1_arg_scope	nets/mobilenet_v1.py	/^def mobilenet_v1_arg_scope($/;"	f
+mobilenet_v1_base	nets/mobilenet_v1.py	/^def mobilenet_v1_base(inputs,$/;"	f
+mobilenet_v2	nets/mobilenet/mobilenet_v2_test.py	/^from nets.mobilenet import mobilenet_v2$/;"	i
+mobilenet_v2	nets/nets_factory.py	/^from nets.mobilenet import mobilenet_v2$/;"	i
+mobilenet_v2_035	nets/mobilenet/mobilenet_v2.py	/^mobilenet_v2_035 = wrapped_partial(mobilenet, depth_multiplier=0.35,$/;"	v
+mobilenet_v2_050	nets/mobilenet/mobilenet_v2.py	/^mobilenet_v2_050 = wrapped_partial(mobilenet, depth_multiplier=0.50,$/;"	v
+mobilenet_v2_140	nets/mobilenet/mobilenet_v2.py	/^mobilenet_v2_140 = wrapped_partial(mobilenet, depth_multiplier=1.4)$/;"	v
+model_deploy	deployment/model_deploy_test.py	/^from deployment import model_deploy$/;"	i
+model_deploy	train_image_classifier.py	/^from deployment import model_deploy$/;"	i
+name	setup.py	/^    name='slim',$/;"	v
+namedtuple	nets/mobilenet_v1.py	/^from collections import namedtuple$/;"	i
+nasnet	nets/nasnet/nasnet_test.py	/^from nets.nasnet import nasnet$/;"	i
+nasnet	nets/nasnet/pnasnet.py	/^from nets.nasnet import nasnet$/;"	i
+nasnet	nets/nets_factory.py	/^from nets.nasnet import nasnet$/;"	i
+nasnet_cifar_arg_scope	nets/nasnet/nasnet.py	/^def nasnet_cifar_arg_scope(weight_decay=5e-4,$/;"	f
+nasnet_large_arg_scope	nets/nasnet/nasnet.py	/^def nasnet_large_arg_scope(weight_decay=5e-5,$/;"	f
+nasnet_mobile_arg_scope	nets/nasnet/nasnet.py	/^def nasnet_mobile_arg_scope(weight_decay=4e-5,$/;"	f
+nasnet_utils	nets/nasnet/nasnet.py	/^from nets.nasnet import nasnet_utils$/;"	i
+nasnet_utils	nets/nasnet/nasnet_utils_test.py	/^from nets.nasnet import nasnet_utils$/;"	i
+nasnet_utils	nets/nasnet/pnasnet.py	/^from nets.nasnet import nasnet_utils$/;"	i
+nets_factory	eval_image_classifier.py	/^from nets import nets_factory$/;"	i
+nets_factory	export_inference_graph.py	/^from nets import nets_factory$/;"	i
+nets_factory	nets/nets_factory_test.py	/^from nets import nets_factory$/;"	i
+nets_factory	train_image_classifier.py	/^from nets import nets_factory$/;"	i
+network_fn	nets/nets_factory.py	/^  def network_fn(images, **kwargs):$/;"	f	function:get_network_fn
+networks_map	nets/nets_factory.py	/^networks_map = {'alexnet_v2': alexnet.alexnet_v2,$/;"	v
+new_filename	datasets/preprocess_imagenet_validation_data.py	/^    new_filename = os.path.join(data_dir, labels[i], basename)$/;"	v
+np	datasets/build_imagenet_data.py	/^import numpy as np$/;"	i
+np	datasets/download_and_convert_cifar10.py	/^import numpy as np$/;"	i
+np	datasets/download_and_convert_mnist.py	/^import numpy as np$/;"	i
+np	deployment/model_deploy_test.py	/^import numpy as np$/;"	i
+np	nets/cyclegan.py	/^import numpy as np$/;"	i
+np	nets/i3d_utils.py	/^import numpy as np$/;"	i
+np	nets/inception_v1_test.py	/^import numpy as np$/;"	i
+np	nets/inception_v2_test.py	/^import numpy as np$/;"	i
+np	nets/inception_v3_test.py	/^import numpy as np$/;"	i
+np	nets/mobilenet_v1_test.py	/^import numpy as np$/;"	i
+np	nets/resnet_v1_test.py	/^import numpy as np$/;"	i
+np	nets/resnet_v2_test.py	/^import numpy as np$/;"	i
+num_clones	deployment/model_deploy.py	/^  def num_clones(self):$/;"	m	class:DeploymentConfig
+num_outputs	nets/mobilenet/mobilenet_v2.py	/^           num_outputs=16),$/;"	v
+num_ps_tasks	deployment/model_deploy.py	/^  def num_ps_tasks(self):$/;"	m	class:DeploymentConfig
+num_replicas	deployment/model_deploy.py	/^  def num_replicas(self):$/;"	m	class:DeploymentConfig
+op	nets/mobilenet/mobilenet.py	/^def op(opfunc, **params):$/;"	f
+op	nets/mobilenet/mobilenet_v2.py	/^op = lib.op$/;"	v
+ops	nets/mobilenet/mobilenet_v2.py	/^from nets.mobilenet import conv_blocks as ops$/;"	i
+ops	nets/mobilenet/mobilenet_v2_test.py	/^from nets.mobilenet import conv_blocks as ops$/;"	i
+optimize_clones	deployment/model_deploy.py	/^def optimize_clones(clones, optimizer,$/;"	f
+optimizer_device	deployment/model_deploy.py	/^  def optimizer_device(self):$/;"	m	class:DeploymentConfig
+original_filename	datasets/preprocess_imagenet_validation_data.py	/^    original_filename = os.path.join(data_dir, basename)$/;"	v
+os	datasets/build_imagenet_data.py	/^import os$/;"	i
+os	datasets/cifar10.py	/^import os$/;"	i
+os	datasets/dataset_utils.py	/^import os$/;"	i
+os	datasets/download_and_convert_cifar10.py	/^import os$/;"	i
+os	datasets/download_and_convert_flowers.py	/^import os$/;"	i
+os	datasets/download_and_convert_mnist.py	/^import os$/;"	i
+os	datasets/flowers.py	/^import os$/;"	i
+os	datasets/imagenet.py	/^import os$/;"	i
+os	datasets/mnist.py	/^import os$/;"	i
+os	datasets/preprocess_imagenet_validation_data.py	/^import os$/;"	i
+os	datasets/process_bounding_boxes.py	/^import os.path$/;"	i
+os	export_inference_graph.py	/^import os$/;"	i
+os	export_inference_graph_test.py	/^import os$/;"	i
+os	nets/mobilenet/mobilenet.py	/^import os$/;"	i
+overfeat	nets/nets_factory.py	/^from nets import overfeat$/;"	i
+overfeat	nets/overfeat.py	/^def overfeat(inputs,$/;"	f
+overfeat	nets/overfeat_test.py	/^from nets import overfeat$/;"	i
+overfeat_arg_scope	nets/overfeat.py	/^def overfeat_arg_scope(weight_decay=0.0005):$/;"	f
+packages	setup.py	/^    packages=find_packages(),$/;"	v
+padded	nets/pix2pix.py	/^  def padded(net, scope):$/;"	f	function:pix2pix_discriminator
+path	datasets/process_bounding_boxes.py	/^import os.path$/;"	i
+pix2pix	nets/pix2pix_test.py	/^from nets import pix2pix$/;"	i
+pix2pix_arg_scope	nets/pix2pix.py	/^def pix2pix_arg_scope():$/;"	f
+pix2pix_discriminator	nets/pix2pix.py	/^def pix2pix_discriminator(net, num_filters, padding=2, pad_mode='REFLECT',$/;"	f
+pix2pix_generator	nets/pix2pix.py	/^def pix2pix_generator(net,$/;"	f
+pnasnet	nets/nasnet/pnasnet_test.py	/^from nets.nasnet import pnasnet$/;"	i
+pnasnet	nets/nets_factory.py	/^from nets.nasnet import pnasnet$/;"	i
+pnasnet_large_arg_scope	nets/nasnet/pnasnet.py	/^def pnasnet_large_arg_scope(weight_decay=4e-5, batch_norm_decay=0.9997,$/;"	f
+pnasnet_mobile_arg_scope	nets/nasnet/pnasnet.py	/^def pnasnet_mobile_arg_scope(weight_decay=4e-5,$/;"	f
+png_to_jpeg	datasets/build_imagenet_data.py	/^  def png_to_jpeg(self, image_data):$/;"	m	class:ImageCoder
+preprocess_for_eval	preprocessing/cifarnet_preprocessing.py	/^def preprocess_for_eval(image, output_height, output_width,$/;"	f
+preprocess_for_eval	preprocessing/inception_preprocessing.py	/^def preprocess_for_eval(image, height, width,$/;"	f
+preprocess_for_eval	preprocessing/vgg_preprocessing.py	/^def preprocess_for_eval(image, output_height, output_width, resize_side):$/;"	f
+preprocess_for_train	preprocessing/cifarnet_preprocessing.py	/^def preprocess_for_train(image,$/;"	f
+preprocess_for_train	preprocessing/inception_preprocessing.py	/^def preprocess_for_train(image, height, width, bbox,$/;"	f
+preprocess_for_train	preprocessing/vgg_preprocessing.py	/^def preprocess_for_train(image,$/;"	f
+preprocess_image	preprocessing/cifarnet_preprocessing.py	/^def preprocess_image(image, output_height, output_width, is_training=False,$/;"	f
+preprocess_image	preprocessing/inception_preprocessing.py	/^def preprocess_image(image, height, width,$/;"	f
+preprocess_image	preprocessing/lenet_preprocessing.py	/^def preprocess_image(image, output_height, output_width, is_training):$/;"	f
+preprocess_image	preprocessing/vgg_preprocessing.py	/^def preprocess_image(image, output_height, output_width, is_training=False,$/;"	f
+preprocessing_factory	eval_image_classifier.py	/^from preprocessing import preprocessing_factory$/;"	i
+preprocessing_factory	nets/mobilenet_v1_eval.py	/^from preprocessing import preprocessing_factory$/;"	i
+preprocessing_factory	nets/mobilenet_v1_train.py	/^from preprocessing import preprocessing_factory$/;"	i
+preprocessing_factory	train_image_classifier.py	/^from preprocessing import preprocessing_factory$/;"	i
+preprocessing_fn	preprocessing/preprocessing_factory.py	/^  def preprocessing_fn(image, output_height, output_width, **kwargs):$/;"	f	function:get_preprocessing
+print_function	datasets/build_imagenet_data.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/cifar10.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/dataset_factory.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/dataset_utils.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/download_and_convert_cifar10.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/download_and_convert_flowers.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/download_and_convert_mnist.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/flowers.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/imagenet.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/mnist.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/preprocess_imagenet_validation_data.py	/^from __future__ import print_function$/;"	i
+print_function	datasets/process_bounding_boxes.py	/^from __future__ import print_function$/;"	i
+print_function	deployment/model_deploy.py	/^from __future__ import print_function$/;"	i
+print_function	deployment/model_deploy_test.py	/^from __future__ import print_function$/;"	i
+print_function	download_and_convert_data.py	/^from __future__ import print_function$/;"	i
+print_function	eval_image_classifier.py	/^from __future__ import print_function$/;"	i
+print_function	export_inference_graph.py	/^from __future__ import print_function$/;"	i
+print_function	export_inference_graph_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/alexnet.py	/^from __future__ import print_function$/;"	i
+print_function	nets/alexnet_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/cifarnet.py	/^from __future__ import print_function$/;"	i
+print_function	nets/cyclegan.py	/^from __future__ import print_function$/;"	i
+print_function	nets/cyclegan_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/dcgan.py	/^from __future__ import print_function$/;"	i
+print_function	nets/dcgan_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/i3d.py	/^from __future__ import print_function$/;"	i
+print_function	nets/i3d_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/i3d_utils.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_resnet_v2.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_resnet_v2_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_utils.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_v1.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_v1_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_v2.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_v2_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_v3.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_v3_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_v4.py	/^from __future__ import print_function$/;"	i
+print_function	nets/inception_v4_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/lenet.py	/^from __future__ import print_function$/;"	i
+print_function	nets/mobilenet/mobilenet.py	/^from __future__ import print_function$/;"	i
+print_function	nets/mobilenet/mobilenet_v2.py	/^from __future__ import print_function$/;"	i
+print_function	nets/mobilenet/mobilenet_v2_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/mobilenet_v1.py	/^from __future__ import print_function$/;"	i
+print_function	nets/mobilenet_v1_eval.py	/^from __future__ import print_function$/;"	i
+print_function	nets/mobilenet_v1_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/mobilenet_v1_train.py	/^from __future__ import print_function$/;"	i
+print_function	nets/nasnet/nasnet.py	/^from __future__ import print_function$/;"	i
+print_function	nets/nasnet/nasnet_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/nasnet/nasnet_utils.py	/^from __future__ import print_function$/;"	i
+print_function	nets/nasnet/nasnet_utils_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/nasnet/pnasnet.py	/^from __future__ import print_function$/;"	i
+print_function	nets/nasnet/pnasnet_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/nets_factory.py	/^from __future__ import print_function$/;"	i
+print_function	nets/nets_factory_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/overfeat.py	/^from __future__ import print_function$/;"	i
+print_function	nets/overfeat_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/pix2pix.py	/^from __future__ import print_function$/;"	i
+print_function	nets/pix2pix_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/resnet_utils.py	/^from __future__ import print_function$/;"	i
+print_function	nets/resnet_v1.py	/^from __future__ import print_function$/;"	i
+print_function	nets/resnet_v1_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/resnet_v2.py	/^from __future__ import print_function$/;"	i
+print_function	nets/resnet_v2_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/s3dg.py	/^from __future__ import print_function$/;"	i
+print_function	nets/s3dg_test.py	/^from __future__ import print_function$/;"	i
+print_function	nets/vgg.py	/^from __future__ import print_function$/;"	i
+print_function	nets/vgg_test.py	/^from __future__ import print_function$/;"	i
+print_function	preprocessing/cifarnet_preprocessing.py	/^from __future__ import print_function$/;"	i
+print_function	preprocessing/inception_preprocessing.py	/^from __future__ import print_function$/;"	i
+print_function	preprocessing/lenet_preprocessing.py	/^from __future__ import print_function$/;"	i
+print_function	preprocessing/preprocessing_factory.py	/^from __future__ import print_function$/;"	i
+print_function	preprocessing/vgg_preprocessing.py	/^from __future__ import print_function$/;"	i
+print_function	train_image_classifier.py	/^from __future__ import print_function$/;"	i
+print_usage	scripts/export_mobilenet.sh	/^print_usage () {$/;"	f
+ps_device	deployment/model_deploy.py	/^  def ps_device(self):$/;"	m	class:DeploymentConfig
+pylint	datasets/build_imagenet_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+pylint	datasets/preprocess_imagenet_validation_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+pylint	datasets/process_bounding_boxes.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+pylint	nets/cyclegan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+pylint	nets/dcgan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+pylint	nets/dcgan_test.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+random	datasets/build_imagenet_data.py	/^import random$/;"	i
+random	datasets/download_and_convert_flowers.py	/^import random$/;"	i
+read_image_dims	datasets/download_and_convert_flowers.py	/^  def read_image_dims(self, sess, image_data):$/;"	m	class:ImageReader
+read_label_file	datasets/dataset_utils.py	/^def read_label_file(dataset_dir, filename=LABELS_FILENAME):$/;"	f
+redefined	datasets/build_imagenet_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+redefined	datasets/preprocess_imagenet_validation_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+redefined	datasets/process_bounding_boxes.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+redefined	nets/cyclegan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+redefined	nets/dcgan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+redefined	nets/dcgan_test.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+reduced_kernel_size_3d	nets/i3d_utils.py	/^def reduced_kernel_size_3d(input_tensor, kernel_size):$/;"	f
+replica_id	deployment/model_deploy.py	/^  def replica_id(self):$/;"	m	class:DeploymentConfig
+resnet_arg_scope	nets/resnet_utils.py	/^def resnet_arg_scope(weight_decay=0.0001,$/;"	f
+resnet_arg_scope	nets/resnet_v1.py	/^resnet_arg_scope = resnet_utils.resnet_arg_scope$/;"	v
+resnet_arg_scope	nets/resnet_v2.py	/^resnet_arg_scope = resnet_utils.resnet_arg_scope$/;"	v
+resnet_utils	nets/resnet_v1.py	/^from nets import resnet_utils$/;"	i
+resnet_utils	nets/resnet_v1_test.py	/^from nets import resnet_utils$/;"	i
+resnet_utils	nets/resnet_v2.py	/^from nets import resnet_utils$/;"	i
+resnet_utils	nets/resnet_v2_test.py	/^from nets import resnet_utils$/;"	i
+resnet_v1	nets/nets_factory.py	/^from nets import resnet_v1$/;"	i
+resnet_v1	nets/resnet_v1.py	/^def resnet_v1(inputs,$/;"	f
+resnet_v1	nets/resnet_v1_test.py	/^from nets import resnet_v1$/;"	i
+resnet_v1_101	nets/resnet_v1.py	/^def resnet_v1_101(inputs,$/;"	f
+resnet_v1_152	nets/resnet_v1.py	/^def resnet_v1_152(inputs,$/;"	f
+resnet_v1_200	nets/resnet_v1.py	/^def resnet_v1_200(inputs,$/;"	f
+resnet_v1_50	nets/resnet_v1.py	/^def resnet_v1_50(inputs,$/;"	f
+resnet_v1_block	nets/resnet_v1.py	/^def resnet_v1_block(scope, base_depth, num_units, stride):$/;"	f
+resnet_v2	nets/nets_factory.py	/^from nets import resnet_v2$/;"	i
+resnet_v2	nets/resnet_v2.py	/^def resnet_v2(inputs,$/;"	f
+resnet_v2	nets/resnet_v2_test.py	/^from nets import resnet_v2$/;"	i
+resnet_v2_101	nets/resnet_v2.py	/^def resnet_v2_101(inputs,$/;"	f
+resnet_v2_152	nets/resnet_v2.py	/^def resnet_v2_152(inputs,$/;"	f
+resnet_v2_200	nets/resnet_v2.py	/^def resnet_v2_200(inputs,$/;"	f
+resnet_v2_50	nets/resnet_v2.py	/^def resnet_v2_50(inputs,$/;"	f
+resnet_v2_block	nets/resnet_v2.py	/^def resnet_v2_block(scope, base_depth, num_units, stride):$/;"	f
+run	datasets/download_and_convert_cifar10.py	/^def run(dataset_dir):$/;"	f
+run	datasets/download_and_convert_flowers.py	/^def run(dataset_dir):$/;"	f
+run	datasets/download_and_convert_mnist.py	/^def run(dataset_dir):$/;"	f
+s3dg	nets/i3d.py	/^from nets import s3dg$/;"	i
+s3dg	nets/nets_factory.py	/^from nets import s3dg$/;"	i
+s3dg	nets/s3dg.py	/^def s3dg(inputs,$/;"	f
+s3dg	nets/s3dg_test.py	/^from nets import s3dg$/;"	i
+s3dg_arg_scope	nets/s3dg.py	/^def s3dg_arg_scope(weight_decay=1e-7,$/;"	f
+s3dg_base	nets/s3dg.py	/^def s3dg_base(inputs,$/;"	f
+safe_arg_scope	nets/mobilenet/mobilenet.py	/^def safe_arg_scope(funcs, **kwargs):$/;"	f
+saved_boxes	datasets/process_bounding_boxes.py	/^  saved_boxes = 0$/;"	v
+saved_files	datasets/process_bounding_boxes.py	/^  saved_files = 0$/;"	v
+self_gating	nets/s3dg.py	/^def self_gating(input_tensor, scope, data_format='NDHWC'):$/;"	f
+setUp	deployment/model_deploy_test.py	/^  def setUp(self):$/;"	m	class:CreatecloneTest
+setUp	deployment/model_deploy_test.py	/^  def setUp(self):$/;"	m	class:DeployTest
+setUp	deployment/model_deploy_test.py	/^  def setUp(self):$/;"	m	class:OptimizeclonesTest
+setUp	nets/mobilenet/mobilenet_v2_test.py	/^  def setUp(self):$/;"	m	class:MobilenetV2Test
+setup	setup.py	/^from setuptools import setup$/;"	i
+skipped_boxes	datasets/process_bounding_boxes.py	/^  skipped_boxes = 0$/;"	v
+skipped_files	datasets/process_bounding_boxes.py	/^  skipped_files = 0$/;"	v
+slim	datasets/cifar10.py	/^slim = tf.contrib.slim$/;"	v
+slim	datasets/flowers.py	/^slim = tf.contrib.slim$/;"	v
+slim	datasets/imagenet.py	/^slim = tf.contrib.slim$/;"	v
+slim	datasets/mnist.py	/^slim = tf.contrib.slim$/;"	v
+slim	deployment/model_deploy.py	/^slim = tf.contrib.slim$/;"	v
+slim	deployment/model_deploy_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	eval_image_classifier.py	/^slim = tf.contrib.slim$/;"	v
+slim	export_inference_graph.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/alexnet.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/alexnet_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/cifarnet.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/dcgan.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/i3d.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/inception_resnet_v2.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/inception_utils.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/inception_v1.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/inception_v1_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/inception_v2.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/inception_v2_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/inception_v3.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/inception_v3_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/inception_v4.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/lenet.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/mobilenet/conv_blocks.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/mobilenet/mobilenet.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/mobilenet/mobilenet_v2.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/mobilenet/mobilenet_v2_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/mobilenet_v1.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/mobilenet_v1_eval.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/mobilenet_v1_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/mobilenet_v1_train.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/nasnet/nasnet.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/nasnet/nasnet_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/nasnet/nasnet_utils.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/nasnet/pnasnet.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/nasnet/pnasnet_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/nets_factory.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/overfeat.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/overfeat_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/resnet_utils.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/resnet_v1.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/resnet_v1_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/resnet_v2.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/resnet_v2_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/vgg.py	/^slim = tf.contrib.slim$/;"	v
+slim	nets/vgg_test.py	/^slim = tf.contrib.slim$/;"	v
+slim	preprocessing/cifarnet_preprocessing.py	/^slim = tf.contrib.slim$/;"	v
+slim	preprocessing/lenet_preprocessing.py	/^slim = tf.contrib.slim$/;"	v
+slim	preprocessing/preprocessing_factory.py	/^slim = tf.contrib.slim$/;"	v
+slim	preprocessing/vgg_preprocessing.py	/^slim = tf.contrib.slim$/;"	v
+slim	train_image_classifier.py	/^slim = tf.contrib.slim$/;"	v
+spec	nets/mobilenet/mobilenet_v2.py	/^    spec=[$/;"	v
+split_conv	nets/mobilenet/conv_blocks.py	/^def split_conv(input_tensor,$/;"	f
+split_separable_conv2d	nets/mobilenet/conv_blocks.py	/^def split_separable_conv2d(input_tensor,$/;"	f
+stack_blocks_dense	nets/resnet_utils.py	/^def stack_blocks_dense(net, blocks, output_stride=None,$/;"	f
+subsample	nets/resnet_utils.py	/^def subsample(inputs, factor, scope=None):$/;"	f
+sys	datasets/build_imagenet_data.py	/^import sys$/;"	i
+sys	datasets/dataset_utils.py	/^import sys$/;"	i
+sys	datasets/download_and_convert_cifar10.py	/^import sys$/;"	i
+sys	datasets/download_and_convert_flowers.py	/^import sys$/;"	i
+sys	datasets/download_and_convert_mnist.py	/^import sys$/;"	i
+sys	datasets/preprocess_imagenet_validation_data.py	/^import sys$/;"	i
+sys	datasets/process_bounding_boxes.py	/^import sys$/;"	i
+tarfile	datasets/dataset_utils.py	/^import tarfile$/;"	i
+tarfile	datasets/download_and_convert_cifar10.py	/^import tarfile$/;"	i
+testAllEndPointsShapes	nets/inception_v4_test.py	/^  def testAllEndPointsShapes(self):$/;"	m	class:InceptionTest
+testAllEndPointsShapesCifarModel	nets/nasnet/nasnet_test.py	/^  def testAllEndPointsShapesCifarModel(self):$/;"	m	class:NASNetTest
+testAllEndPointsShapesLargeModel	nets/nasnet/nasnet_test.py	/^  def testAllEndPointsShapesLargeModel(self):$/;"	m	class:NASNetTest
+testAllEndPointsShapesLargeModel	nets/nasnet/pnasnet_test.py	/^  def testAllEndPointsShapesLargeModel(self):$/;"	m	class:PNASNetTest
+testAllEndPointsShapesMobileModel	nets/nasnet/nasnet_test.py	/^  def testAllEndPointsShapesMobileModel(self):$/;"	m	class:NASNetTest
+testAllEndPointsShapesMobileModel	nets/nasnet/pnasnet_test.py	/^  def testAllEndPointsShapesMobileModel(self):$/;"	m	class:PNASNetTest
+testAtrousFullyConvolutionalEndpointShapes	nets/resnet_v1_test.py	/^  def testAtrousFullyConvolutionalEndpointShapes(self):$/;"	m	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalEndpointShapes	nets/resnet_v2_test.py	/^  def testAtrousFullyConvolutionalEndpointShapes(self):$/;"	m	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalUnknownHeightWidth	nets/resnet_v1_test.py	/^  def testAtrousFullyConvolutionalUnknownHeightWidth(self):$/;"	m	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalUnknownHeightWidth	nets/resnet_v2_test.py	/^  def testAtrousFullyConvolutionalUnknownHeightWidth(self):$/;"	m	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalValues	nets/resnet_v1_test.py	/^  def testAtrousFullyConvolutionalValues(self):$/;"	m	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalValues	nets/resnet_v2_test.py	/^  def testAtrousFullyConvolutionalValues(self):$/;"	m	class:ResnetCompleteNetworkTest
+testAtrousValuesBottleneck	nets/resnet_v1_test.py	/^  def testAtrousValuesBottleneck(self):$/;"	m	class:ResnetUtilsTest
+testAtrousValuesBottleneck	nets/resnet_v2_test.py	/^  def testAtrousValuesBottleneck(self):$/;"	m	class:ResnetUtilsTest
+testBatchNormScale	nets/inception_resnet_v2_test.py	/^  def testBatchNormScale(self):$/;"	m	class:InceptionTest
+testBatchNormScale	nets/inception_v1_test.py	/^  def testBatchNormScale(self):$/;"	m	class:InceptionV1Test
+testBatchNormScale	nets/inception_v2_test.py	/^  def testBatchNormScale(self):$/;"	m	class:InceptionV2Test
+testBatchNormScale	nets/inception_v3_test.py	/^  def testBatchNormScale(self):$/;"	m	class:InceptionV3Test
+testBatchNormScale	nets/inception_v4_test.py	/^  def testBatchNormScale(self):$/;"	m	class:InceptionTest
+testBatchNormScopeDoesHasIsTrainingWhenItsNotNone	nets/mobilenet/mobilenet_v2_test.py	/^  def testBatchNormScopeDoesHasIsTrainingWhenItsNotNone(self):$/;"	m	class:MobilenetV2Test
+testBatchNormScopeDoesHasIsTrainingWhenItsNotNone	nets/mobilenet_v1_test.py	/^  def testBatchNormScopeDoesHasIsTrainingWhenItsNotNone(self):$/;"	m	class:MobilenetV1Test
+testBatchNormScopeDoesNotHaveIsTrainingWhenItsSetToNone	nets/mobilenet/mobilenet_v2_test.py	/^  def testBatchNormScopeDoesNotHaveIsTrainingWhenItsSetToNone(self):$/;"	m	class:MobilenetV2Test
+testBatchNormScopeDoesNotHaveIsTrainingWhenItsSetToNone	nets/mobilenet_v1_test.py	/^  def testBatchNormScopeDoesNotHaveIsTrainingWhenItsSetToNone(self):$/;"	m	class:MobilenetV1Test
+testBuild	nets/alexnet_test.py	/^  def testBuild(self):$/;"	m	class:AlexnetV2Test
+testBuild	nets/overfeat_test.py	/^  def testBuild(self):$/;"	m	class:OverFeatTest
+testBuild	nets/vgg_test.py	/^  def testBuild(self):$/;"	m	class:VGG16Test
+testBuild	nets/vgg_test.py	/^  def testBuild(self):$/;"	m	class:VGG19Test
+testBuild	nets/vgg_test.py	/^  def testBuild(self):$/;"	m	class:VGGATest
+testBuildAndCheckAllEndPointsApproximateFaceNet	nets/mobilenet_v1_test.py	/^  def testBuildAndCheckAllEndPointsApproximateFaceNet(self):$/;"	m	class:MobilenetV1Test
+testBuildAndCheckAllEndPointsUptoConv2d_13	nets/mobilenet_v1_test.py	/^  def testBuildAndCheckAllEndPointsUptoConv2d_13(self):$/;"	m	class:MobilenetV1Test
+testBuildAndCheckAllEndPointsUptoMixed5c	nets/i3d_test.py	/^  def testBuildAndCheckAllEndPointsUptoMixed5c(self):$/;"	m	class:I3DTest
+testBuildAndCheckAllEndPointsUptoMixed5c	nets/inception_v1_test.py	/^  def testBuildAndCheckAllEndPointsUptoMixed5c(self):$/;"	m	class:InceptionV1Test
+testBuildAndCheckAllEndPointsUptoMixed5c	nets/inception_v2_test.py	/^  def testBuildAndCheckAllEndPointsUptoMixed5c(self):$/;"	m	class:InceptionV2Test
+testBuildAndCheckAllEndPointsUptoMixed5c	nets/s3dg_test.py	/^  def testBuildAndCheckAllEndPointsUptoMixed5c(self):$/;"	m	class:S3DGTest
+testBuildAndCheckAllEndPointsUptoMixed7c	nets/inception_v3_test.py	/^  def testBuildAndCheckAllEndPointsUptoMixed7c(self):$/;"	m	class:InceptionV3Test
+testBuildAndCheckAllEndPointsUptoPreAuxLogits	nets/inception_resnet_v2_test.py	/^  def testBuildAndCheckAllEndPointsUptoPreAuxLogits(self):$/;"	m	class:InceptionTest
+testBuildAndCheckAllEndPointsUptoPreAuxLogitsWithAlignedFeatureMaps	nets/inception_resnet_v2_test.py	/^  def testBuildAndCheckAllEndPointsUptoPreAuxLogitsWithAlignedFeatureMaps(self):$/;"	m	class:InceptionTest
+testBuildAndCheckAllEndPointsUptoPreAuxLogitsWithOutputStrideEight	nets/inception_resnet_v2_test.py	/^  def testBuildAndCheckAllEndPointsUptoPreAuxLogitsWithOutputStrideEight(self):$/;"	m	class:InceptionTest
+testBuildBaseNetwork	nets/i3d_test.py	/^  def testBuildBaseNetwork(self):$/;"	m	class:I3DTest
+testBuildBaseNetwork	nets/inception_resnet_v2_test.py	/^  def testBuildBaseNetwork(self):$/;"	m	class:InceptionTest
+testBuildBaseNetwork	nets/inception_v1_test.py	/^  def testBuildBaseNetwork(self):$/;"	m	class:InceptionV1Test
+testBuildBaseNetwork	nets/inception_v2_test.py	/^  def testBuildBaseNetwork(self):$/;"	m	class:InceptionV2Test
+testBuildBaseNetwork	nets/inception_v3_test.py	/^  def testBuildBaseNetwork(self):$/;"	m	class:InceptionV3Test
+testBuildBaseNetwork	nets/inception_v4_test.py	/^  def testBuildBaseNetwork(self):$/;"	m	class:InceptionTest
+testBuildBaseNetwork	nets/mobilenet_v1_test.py	/^  def testBuildBaseNetwork(self):$/;"	m	class:MobilenetV1Test
+testBuildBaseNetwork	nets/s3dg_test.py	/^  def testBuildBaseNetwork(self):$/;"	m	class:S3DGTest
+testBuildClassificationNetwork	nets/i3d_test.py	/^  def testBuildClassificationNetwork(self):$/;"	m	class:I3DTest
+testBuildClassificationNetwork	nets/inception_v1_test.py	/^  def testBuildClassificationNetwork(self):$/;"	m	class:InceptionV1Test
+testBuildClassificationNetwork	nets/inception_v2_test.py	/^  def testBuildClassificationNetwork(self):$/;"	m	class:InceptionV2Test
+testBuildClassificationNetwork	nets/inception_v3_test.py	/^  def testBuildClassificationNetwork(self):$/;"	m	class:InceptionV3Test
+testBuildClassificationNetwork	nets/mobilenet_v1_test.py	/^  def testBuildClassificationNetwork(self):$/;"	m	class:MobilenetV1Test
+testBuildClassificationNetwork	nets/s3dg_test.py	/^  def testBuildClassificationNetwork(self):$/;"	m	class:S3DGTest
+testBuildCustomNetworkUsingConvDefs	nets/mobilenet_v1_test.py	/^  def testBuildCustomNetworkUsingConvDefs(self):$/;"	m	class:MobilenetV1Test
+testBuildEndPoints	nets/inception_resnet_v2_test.py	/^  def testBuildEndPoints(self):$/;"	m	class:InceptionTest
+testBuildEndPoints	nets/inception_v3_test.py	/^  def testBuildEndPoints(self):$/;"	m	class:InceptionV3Test
+testBuildEndPointsNCHWDataFormat	nets/inception_v2_test.py	/^  def testBuildEndPointsNCHWDataFormat(self):$/;"	m	class:InceptionV2Test
+testBuildEndPointsWithDepthMultiplierGreaterThanOne	nets/inception_v2_test.py	/^  def testBuildEndPointsWithDepthMultiplierGreaterThanOne(self):$/;"	m	class:InceptionV2Test
+testBuildEndPointsWithDepthMultiplierGreaterThanOne	nets/inception_v3_test.py	/^  def testBuildEndPointsWithDepthMultiplierGreaterThanOne(self):$/;"	m	class:InceptionV3Test
+testBuildEndPointsWithDepthMultiplierGreaterThanOne	nets/mobilenet_v1_test.py	/^  def testBuildEndPointsWithDepthMultiplierGreaterThanOne(self):$/;"	m	class:MobilenetV1Test
+testBuildEndPointsWithDepthMultiplierLessThanOne	nets/inception_v2_test.py	/^  def testBuildEndPointsWithDepthMultiplierLessThanOne(self):$/;"	m	class:InceptionV2Test
+testBuildEndPointsWithDepthMultiplierLessThanOne	nets/inception_v3_test.py	/^  def testBuildEndPointsWithDepthMultiplierLessThanOne(self):$/;"	m	class:InceptionV3Test
+testBuildEndPointsWithDepthMultiplierLessThanOne	nets/mobilenet_v1_test.py	/^  def testBuildEndPointsWithDepthMultiplierLessThanOne(self):$/;"	m	class:MobilenetV1Test
+testBuildEndPointsWithUseSeparableConvolutionFalse	nets/inception_v2_test.py	/^  def testBuildEndPointsWithUseSeparableConvolutionFalse(self):$/;"	m	class:InceptionV2Test
+testBuildErrorsForDataFormats	nets/inception_v2_test.py	/^  def testBuildErrorsForDataFormats(self):$/;"	m	class:InceptionV2Test
+testBuildLogits	nets/inception_resnet_v2_test.py	/^  def testBuildLogits(self):$/;"	m	class:InceptionTest
+testBuildLogits	nets/inception_v4_test.py	/^  def testBuildLogits(self):$/;"	m	class:InceptionTest
+testBuildLogitsCifarModel	nets/nasnet/nasnet_test.py	/^  def testBuildLogitsCifarModel(self):$/;"	m	class:NASNetTest
+testBuildLogitsLargeModel	nets/nasnet/nasnet_test.py	/^  def testBuildLogitsLargeModel(self):$/;"	m	class:NASNetTest
+testBuildLogitsLargeModel	nets/nasnet/pnasnet_test.py	/^  def testBuildLogitsLargeModel(self):$/;"	m	class:PNASNetTest
+testBuildLogitsMobileModel	nets/nasnet/nasnet_test.py	/^  def testBuildLogitsMobileModel(self):$/;"	m	class:NASNetTest
+testBuildLogitsMobileModel	nets/nasnet/pnasnet_test.py	/^  def testBuildLogitsMobileModel(self):$/;"	m	class:PNASNetTest
+testBuildNoClasses	nets/inception_resnet_v2_test.py	/^  def testBuildNoClasses(self):$/;"	m	class:InceptionTest
+testBuildNonExistingLayerLargeModel	nets/nasnet/pnasnet_test.py	/^  def testBuildNonExistingLayerLargeModel(self):$/;"	m	class:PNASNetTest
+testBuildNonExistingLayerMobileModel	nets/nasnet/pnasnet_test.py	/^  def testBuildNonExistingLayerMobileModel(self):$/;"	m	class:PNASNetTest
+testBuildOnlyUpToFinalEndpoint	nets/inception_v4_test.py	/^  def testBuildOnlyUpToFinalEndpoint(self):$/;"	m	class:InceptionTest
+testBuildOnlyUptoFinalEndpoint	nets/i3d_test.py	/^  def testBuildOnlyUptoFinalEndpoint(self):$/;"	m	class:I3DTest
+testBuildOnlyUptoFinalEndpoint	nets/inception_resnet_v2_test.py	/^  def testBuildOnlyUptoFinalEndpoint(self):$/;"	m	class:InceptionTest
+testBuildOnlyUptoFinalEndpoint	nets/inception_v1_test.py	/^  def testBuildOnlyUptoFinalEndpoint(self):$/;"	m	class:InceptionV1Test
+testBuildOnlyUptoFinalEndpoint	nets/inception_v2_test.py	/^  def testBuildOnlyUptoFinalEndpoint(self):$/;"	m	class:InceptionV2Test
+testBuildOnlyUptoFinalEndpoint	nets/inception_v3_test.py	/^  def testBuildOnlyUptoFinalEndpoint(self):$/;"	m	class:InceptionV3Test
+testBuildOnlyUptoFinalEndpoint	nets/mobilenet_v1_test.py	/^  def testBuildOnlyUptoFinalEndpoint(self):$/;"	m	class:MobilenetV1Test
+testBuildOnlyUptoFinalEndpointNoGating	nets/s3dg_test.py	/^  def testBuildOnlyUptoFinalEndpointNoGating(self):$/;"	m	class:S3DGTest
+testBuildPreLogitsCifarModel	nets/nasnet/nasnet_test.py	/^  def testBuildPreLogitsCifarModel(self):$/;"	m	class:NASNetTest
+testBuildPreLogitsLargeModel	nets/nasnet/nasnet_test.py	/^  def testBuildPreLogitsLargeModel(self):$/;"	m	class:NASNetTest
+testBuildPreLogitsLargeModel	nets/nasnet/pnasnet_test.py	/^  def testBuildPreLogitsLargeModel(self):$/;"	m	class:PNASNetTest
+testBuildPreLogitsMobileModel	nets/nasnet/nasnet_test.py	/^  def testBuildPreLogitsMobileModel(self):$/;"	m	class:NASNetTest
+testBuildPreLogitsMobileModel	nets/nasnet/pnasnet_test.py	/^  def testBuildPreLogitsMobileModel(self):$/;"	m	class:PNASNetTest
+testBuildPreLogitsNetwork	nets/inception_v1_test.py	/^  def testBuildPreLogitsNetwork(self):$/;"	m	class:InceptionV1Test
+testBuildPreLogitsNetwork	nets/inception_v2_test.py	/^  def testBuildPreLogitsNetwork(self):$/;"	m	class:InceptionV2Test
+testBuildPreLogitsNetwork	nets/inception_v3_test.py	/^  def testBuildPreLogitsNetwork(self):$/;"	m	class:InceptionV3Test
+testBuildPreLogitsNetwork	nets/inception_v4_test.py	/^  def testBuildPreLogitsNetwork(self):$/;"	m	class:InceptionTest
+testBuildPreLogitsNetwork	nets/mobilenet_v1_test.py	/^  def testBuildPreLogitsNetwork(self):$/;"	m	class:MobilenetV1Test
+testBuildWithoutAuxLogits	nets/inception_resnet_v2_test.py	/^  def testBuildWithoutAuxLogits(self):$/;"	m	class:InceptionTest
+testBuildWithoutAuxLogits	nets/inception_v4_test.py	/^  def testBuildWithoutAuxLogits(self):$/;"	m	class:InceptionTest
+testCPUonly	deployment/model_deploy_test.py	/^  def testCPUonly(self):$/;"	m	class:DeploymentConfigTest
+testCalcReductionLayers	nets/nasnet/nasnet_utils_test.py	/^  def testCalcReductionLayers(self):$/;"	m	class:NasnetUtilsTest
+testClassificationEndPoints	nets/resnet_v1_test.py	/^  def testClassificationEndPoints(self):$/;"	m	class:ResnetCompleteNetworkTest
+testClassificationEndPoints	nets/resnet_v2_test.py	/^  def testClassificationEndPoints(self):$/;"	m	class:ResnetCompleteNetworkTest
+testClassificationEndPointsWithNoBatchNormArgscope	nets/resnet_v1_test.py	/^  def testClassificationEndPointsWithNoBatchNormArgscope(self):$/;"	m	class:ResnetCompleteNetworkTest
+testClassificationShapes	nets/resnet_v1_test.py	/^  def testClassificationShapes(self):$/;"	m	class:ResnetCompleteNetworkTest
+testClassificationShapes	nets/resnet_v2_test.py	/^  def testClassificationShapes(self):$/;"	m	class:ResnetCompleteNetworkTest
+testConv2DSameEven	nets/resnet_v1_test.py	/^  def testConv2DSameEven(self):$/;"	m	class:ResnetUtilsTest
+testConv2DSameEven	nets/resnet_v2_test.py	/^  def testConv2DSameEven(self):$/;"	m	class:ResnetUtilsTest
+testConv2DSameOdd	nets/resnet_v1_test.py	/^  def testConv2DSameOdd(self):$/;"	m	class:ResnetUtilsTest
+testConv2DSameOdd	nets/resnet_v2_test.py	/^  def testConv2DSameOdd(self):$/;"	m	class:ResnetUtilsTest
+testCreateLogisticClassifier	deployment/model_deploy_test.py	/^  def testCreateLogisticClassifier(self):$/;"	m	class:CreatecloneTest
+testCreateLogisticClassifier	deployment/model_deploy_test.py	/^  def testCreateLogisticClassifier(self):$/;"	m	class:OptimizeclonesTest
+testCreateMulticlone	deployment/model_deploy_test.py	/^  def testCreateMulticlone(self):$/;"	m	class:CreatecloneTest
+testCreateMulticlone	deployment/model_deploy_test.py	/^  def testCreateMulticlone(self):$/;"	m	class:OptimizeclonesTest
+testCreateMulticloneCPU	deployment/model_deploy_test.py	/^  def testCreateMulticloneCPU(self):$/;"	m	class:OptimizeclonesTest
+testCreateMulticloneWithPS	deployment/model_deploy_test.py	/^  def testCreateMulticloneWithPS(self):$/;"	m	class:CreatecloneTest
+testCreateOnecloneWithPS	deployment/model_deploy_test.py	/^  def testCreateOnecloneWithPS(self):$/;"	m	class:CreatecloneTest
+testCreateOnecloneWithPS	deployment/model_deploy_test.py	/^  def testCreateOnecloneWithPS(self):$/;"	m	class:OptimizeclonesTest
+testCreateSingleclone	deployment/model_deploy_test.py	/^  def testCreateSingleclone(self):$/;"	m	class:CreatecloneTest
+testCreateSingleclone	deployment/model_deploy_test.py	/^  def testCreateSingleclone(self):$/;"	m	class:OptimizeclonesTest
+testCreation	nets/mobilenet/mobilenet_v2_test.py	/^  def testCreation(self):$/;"	m	class:MobilenetV2Test
+testCreationNoClasses	nets/mobilenet/mobilenet_v2_test.py	/^  def testCreationNoClasses(self):$/;"	m	class:MobilenetV2Test
+testCurrentStepCifarModel	nets/nasnet/nasnet_test.py	/^  def testCurrentStepCifarModel(self):$/;"	m	class:NASNetTest
+testDefaults	deployment/model_deploy_test.py	/^  def testDefaults(self):$/;"	m	class:DeploymentConfigTest
+testDivisibleBy	nets/mobilenet/mobilenet_v2_test.py	/^  def testDivisibleBy(self):$/;"	m	class:MobilenetV2Test
+testDivisibleByWithArgScope	nets/mobilenet/mobilenet_v2_test.py	/^  def testDivisibleByWithArgScope(self):$/;"	m	class:MobilenetV2Test
+testEndPoints	nets/alexnet_test.py	/^  def testEndPoints(self):$/;"	m	class:AlexnetV2Test
+testEndPoints	nets/overfeat_test.py	/^  def testEndPoints(self):$/;"	m	class:OverFeatTest
+testEndPoints	nets/vgg_test.py	/^  def testEndPoints(self):$/;"	m	class:VGG16Test
+testEndPoints	nets/vgg_test.py	/^  def testEndPoints(self):$/;"	m	class:VGG19Test
+testEndPoints	nets/vgg_test.py	/^  def testEndPoints(self):$/;"	m	class:VGGATest
+testEndPointsV1	nets/resnet_v1_test.py	/^  def testEndPointsV1(self):$/;"	m	class:ResnetUtilsTest
+testEndPointsV2	nets/resnet_v2_test.py	/^  def testEndPointsV2(self):$/;"	m	class:ResnetUtilsTest
+testEndpointNames	nets/resnet_v1_test.py	/^  def testEndpointNames(self):$/;"	m	class:ResnetCompleteNetworkTest
+testEndpointNames	nets/resnet_v2_test.py	/^  def testEndpointNames(self):$/;"	m	class:ResnetCompleteNetworkTest
+testEvaluation	nets/alexnet_test.py	/^  def testEvaluation(self):$/;"	m	class:AlexnetV2Test
+testEvaluation	nets/i3d_test.py	/^  def testEvaluation(self):$/;"	m	class:I3DTest
+testEvaluation	nets/inception_resnet_v2_test.py	/^  def testEvaluation(self):$/;"	m	class:InceptionTest
+testEvaluation	nets/inception_v1_test.py	/^  def testEvaluation(self):$/;"	m	class:InceptionV1Test
+testEvaluation	nets/inception_v2_test.py	/^  def testEvaluation(self):$/;"	m	class:InceptionV2Test
+testEvaluation	nets/inception_v3_test.py	/^  def testEvaluation(self):$/;"	m	class:InceptionV3Test
+testEvaluation	nets/inception_v4_test.py	/^  def testEvaluation(self):$/;"	m	class:InceptionTest
+testEvaluation	nets/mobilenet_v1_test.py	/^  def testEvaluation(self):$/;"	m	class:MobilenetV1Test
+testEvaluation	nets/overfeat_test.py	/^  def testEvaluation(self):$/;"	m	class:OverFeatTest
+testEvaluation	nets/s3dg_test.py	/^  def testEvaluation(self):$/;"	m	class:S3DGTest
+testEvaluation	nets/vgg_test.py	/^  def testEvaluation(self):$/;"	m	class:VGG16Test
+testEvaluation	nets/vgg_test.py	/^  def testEvaluation(self):$/;"	m	class:VGG19Test
+testEvaluation	nets/vgg_test.py	/^  def testEvaluation(self):$/;"	m	class:VGGATest
+testEvaluationMobileModel	nets/nasnet/nasnet_test.py	/^  def testEvaluationMobileModel(self):$/;"	m	class:NASNetTest
+testExportInferenceGraph	export_inference_graph_test.py	/^  def testExportInferenceGraph(self):$/;"	m	class:ExportInferenceGraphTest
+testFineGrained	nets/mobilenet/mobilenet_v2_test.py	/^  def testFineGrained(self):$/;"	m	class:MobilenetV2Test
+testForward	nets/alexnet_test.py	/^  def testForward(self):$/;"	m	class:AlexnetV2Test
+testForward	nets/overfeat_test.py	/^  def testForward(self):$/;"	m	class:OverFeatTest
+testForward	nets/vgg_test.py	/^  def testForward(self):$/;"	m	class:VGG16Test
+testForward	nets/vgg_test.py	/^  def testForward(self):$/;"	m	class:VGG19Test
+testForward	nets/vgg_test.py	/^  def testForward(self):$/;"	m	class:VGGATest
+testFullyConvolutional	nets/alexnet_test.py	/^  def testFullyConvolutional(self):$/;"	m	class:AlexnetV2Test
+testFullyConvolutional	nets/overfeat_test.py	/^  def testFullyConvolutional(self):$/;"	m	class:OverFeatTest
+testFullyConvolutional	nets/vgg_test.py	/^  def testFullyConvolutional(self):$/;"	m	class:VGG16Test
+testFullyConvolutional	nets/vgg_test.py	/^  def testFullyConvolutional(self):$/;"	m	class:VGG19Test
+testFullyConvolutional	nets/vgg_test.py	/^  def testFullyConvolutional(self):$/;"	m	class:VGGATest
+testFullyConvolutionalEndpointShapes	nets/resnet_v1_test.py	/^  def testFullyConvolutionalEndpointShapes(self):$/;"	m	class:ResnetCompleteNetworkTest
+testFullyConvolutionalEndpointShapes	nets/resnet_v2_test.py	/^  def testFullyConvolutionalEndpointShapes(self):$/;"	m	class:ResnetCompleteNetworkTest
+testFullyConvolutionalUnknownHeightWidth	nets/resnet_v1_test.py	/^  def testFullyConvolutionalUnknownHeightWidth(self):$/;"	m	class:ResnetCompleteNetworkTest
+testFullyConvolutionalUnknownHeightWidth	nets/resnet_v2_test.py	/^  def testFullyConvolutionalUnknownHeightWidth(self):$/;"	m	class:ResnetCompleteNetworkTest
+testGetChannelDim	nets/nasnet/nasnet_utils_test.py	/^  def testGetChannelDim(self):$/;"	m	class:NasnetUtilsTest
+testGetChannelIndex	nets/nasnet/nasnet_utils_test.py	/^  def testGetChannelIndex(self):$/;"	m	class:NasnetUtilsTest
+testGetNetworkFnFirstHalf	nets/nets_factory_test.py	/^  def testGetNetworkFnFirstHalf(self):$/;"	m	class:NetworksTest
+testGetNetworkFnSecondHalf	nets/nets_factory_test.py	/^  def testGetNetworkFnSecondHalf(self):$/;"	m	class:NetworksTest
+testGetNetworkFnVideoModels	nets/nets_factory_test.py	/^  def testGetNetworkFnVideoModels(self):$/;"	m	class:NetworksTest
+testGlobalAvgPool	nets/nasnet/nasnet_utils_test.py	/^  def testGlobalAvgPool(self):$/;"	m	class:NasnetUtilsTest
+testGlobalPool	nets/alexnet_test.py	/^  def testGlobalPool(self):$/;"	m	class:AlexnetV2Test
+testGlobalPool	nets/inception_resnet_v2_test.py	/^  def testGlobalPool(self):$/;"	m	class:InceptionTest
+testGlobalPool	nets/inception_v4_test.py	/^  def testGlobalPool(self):$/;"	m	class:InceptionTest
+testGlobalPool	nets/overfeat_test.py	/^  def testGlobalPool(self):$/;"	m	class:OverFeatTest
+testGlobalPool	nets/vgg_test.py	/^  def testGlobalPool(self):$/;"	m	class:VGG16Test
+testGlobalPool	nets/vgg_test.py	/^  def testGlobalPool(self):$/;"	m	class:VGG19Test
+testGlobalPool	nets/vgg_test.py	/^  def testGlobalPool(self):$/;"	m	class:VGGATest
+testGlobalPoolUnknownImageShape	nets/inception_resnet_v2_test.py	/^  def testGlobalPoolUnknownImageShape(self):$/;"	m	class:InceptionTest
+testGlobalPoolUnknownImageShape	nets/inception_v1_test.py	/^  def testGlobalPoolUnknownImageShape(self):$/;"	m	class:InceptionV1Test
+testGlobalPoolUnknownImageShape	nets/inception_v2_test.py	/^  def testGlobalPoolUnknownImageShape(self):$/;"	m	class:InceptionV2Test
+testGlobalPoolUnknownImageShape	nets/inception_v3_test.py	/^  def testGlobalPoolUnknownImageShape(self):$/;"	m	class:InceptionV3Test
+testGlobalPoolUnknownImageShape	nets/inception_v4_test.py	/^  def testGlobalPoolUnknownImageShape(self):$/;"	m	class:InceptionTest
+testGlobalPoolUnknownImageShape	nets/mobilenet_v1_test.py	/^  def testGlobalPoolUnknownImageShape(self):$/;"	m	class:MobilenetV1Test
+testHalfSizeImages	nets/i3d_test.py	/^  def testHalfSizeImages(self):$/;"	m	class:I3DTest
+testHalfSizeImages	nets/inception_resnet_v2_test.py	/^  def testHalfSizeImages(self):$/;"	m	class:InceptionTest
+testHalfSizeImages	nets/inception_v1_test.py	/^  def testHalfSizeImages(self):$/;"	m	class:InceptionV1Test
+testHalfSizeImages	nets/inception_v2_test.py	/^  def testHalfSizeImages(self):$/;"	m	class:InceptionV2Test
+testHalfSizeImages	nets/inception_v3_test.py	/^  def testHalfSizeImages(self):$/;"	m	class:InceptionV3Test
+testHalfSizeImages	nets/inception_v4_test.py	/^  def testHalfSizeImages(self):$/;"	m	class:InceptionTest
+testHalfSizeImages	nets/mobilenet_v1_test.py	/^  def testHalfSizeImages(self):$/;"	m	class:MobilenetV1Test
+testHalfSizeImages	nets/s3dg_test.py	/^  def testHalfSizeImages(self):$/;"	m	class:S3DGTest
+testImageSizes	nets/mobilenet/mobilenet_v2_test.py	/^  def testImageSizes(self):$/;"	m	class:MobilenetV2Test
+testLocalTrainOp	deployment/model_deploy_test.py	/^  def testLocalTrainOp(self):$/;"	m	class:DeployTest
+testLogitsNotSqueezed	nets/inception_v1_test.py	/^  def testLogitsNotSqueezed(self):$/;"	m	class:InceptionV1Test
+testLogitsNotSqueezed	nets/inception_v2_test.py	/^  def testLogitsNotSqueezed(self):$/;"	m	class:InceptionV2Test
+testLogitsNotSqueezed	nets/inception_v3_test.py	/^  def testLogitsNotSqueezed(self):$/;"	m	class:InceptionV3Test
+testLogitsNotSqueezed	nets/mobilenet_v1_test.py	/^  def testLogitsNotSqueezed(self):$/;"	m	class:MobilenetV1Test
+testMobilenetBase	nets/mobilenet/mobilenet_v2_test.py	/^  def testMobilenetBase(self):$/;"	m	class:MobilenetV2Test
+testModelHasExpectedNumberOfParameters	nets/inception_v1_test.py	/^  def testModelHasExpectedNumberOfParameters(self):$/;"	m	class:InceptionV1Test
+testModelHasExpectedNumberOfParameters	nets/inception_v2_test.py	/^  def testModelHasExpectedNumberOfParameters(self):$/;"	m	class:InceptionV2Test
+testModelHasExpectedNumberOfParameters	nets/inception_v3_test.py	/^  def testModelHasExpectedNumberOfParameters(self):$/;"	m	class:InceptionV3Test
+testModelHasExpectedNumberOfParameters	nets/mobilenet_v1_test.py	/^  def testModelHasExpectedNumberOfParameters(self):$/;"	m	class:MobilenetV1Test
+testModelVariables	nets/alexnet_test.py	/^  def testModelVariables(self):$/;"	m	class:AlexnetV2Test
+testModelVariables	nets/overfeat_test.py	/^  def testModelVariables(self):$/;"	m	class:OverFeatTest
+testModelVariables	nets/vgg_test.py	/^  def testModelVariables(self):$/;"	m	class:VGG16Test
+testModelVariables	nets/vgg_test.py	/^  def testModelVariables(self):$/;"	m	class:VGG19Test
+testModelVariables	nets/vgg_test.py	/^  def testModelVariables(self):$/;"	m	class:VGGATest
+testMultiGPU	deployment/model_deploy_test.py	/^  def testMultiGPU(self):$/;"	m	class:DeploymentConfigTest
+testMultiGPUPS	deployment/model_deploy_test.py	/^  def testMultiGPUPS(self):$/;"	m	class:DeploymentConfigTest
+testNoAuxHeadCifarModel	nets/nasnet/nasnet_test.py	/^  def testNoAuxHeadCifarModel(self):$/;"	m	class:NASNetTest
+testNoAuxHeadLargeModel	nets/nasnet/nasnet_test.py	/^  def testNoAuxHeadLargeModel(self):$/;"	m	class:NASNetTest
+testNoAuxHeadLargeModel	nets/nasnet/pnasnet_test.py	/^  def testNoAuxHeadLargeModel(self):$/;"	m	class:PNASNetTest
+testNoAuxHeadMobileModel	nets/nasnet/nasnet_test.py	/^  def testNoAuxHeadMobileModel(self):$/;"	m	class:NASNetTest
+testNoAuxHeadMobileModel	nets/nasnet/pnasnet_test.py	/^  def testNoAuxHeadMobileModel(self):$/;"	m	class:PNASNetTest
+testNoBatchNormScaleByDefault	nets/inception_resnet_v2_test.py	/^  def testNoBatchNormScaleByDefault(self):$/;"	m	class:InceptionTest
+testNoBatchNormScaleByDefault	nets/inception_v1_test.py	/^  def testNoBatchNormScaleByDefault(self):$/;"	m	class:InceptionV1Test
+testNoBatchNormScaleByDefault	nets/inception_v2_test.py	/^  def testNoBatchNormScaleByDefault(self):$/;"	m	class:InceptionV2Test
+testNoBatchNormScaleByDefault	nets/inception_v3_test.py	/^  def testNoBatchNormScaleByDefault(self):$/;"	m	class:InceptionV3Test
+testNoBatchNormScaleByDefault	nets/inception_v4_test.py	/^  def testNoBatchNormScaleByDefault(self):$/;"	m	class:InceptionTest
+testNoClasses	nets/alexnet_test.py	/^  def testNoClasses(self):$/;"	m	class:AlexnetV2Test
+testNoClasses	nets/overfeat_test.py	/^  def testNoClasses(self):$/;"	m	class:OverFeatTest
+testNoClasses	nets/vgg_test.py	/^  def testNoClasses(self):$/;"	m	class:VGG16Test
+testNoClasses	nets/vgg_test.py	/^  def testNoClasses(self):$/;"	m	class:VGG19Test
+testNoClasses	nets/vgg_test.py	/^  def testNoClasses(self):$/;"	m	class:VGGATest
+testNoSummariesOnGPU	deployment/model_deploy_test.py	/^  def testNoSummariesOnGPU(self):$/;"	m	class:DeployTest
+testNoSummariesOnGPUForEvals	deployment/model_deploy_test.py	/^  def testNoSummariesOnGPUForEvals(self):$/;"	m	class:DeployTest
+testOutputStride16BuildAndCheckAllEndPointsUptoConv2d_13	nets/mobilenet_v1_test.py	/^  def testOutputStride16BuildAndCheckAllEndPointsUptoConv2d_13(self):$/;"	m	class:MobilenetV1Test
+testOutputStride8BuildAndCheckAllEndPointsUptoConv2d_13	nets/mobilenet_v1_test.py	/^  def testOutputStride8BuildAndCheckAllEndPointsUptoConv2d_13(self):$/;"	m	class:MobilenetV1Test
+testOverrideHParamsCifarModel	nets/nasnet/nasnet_test.py	/^  def testOverrideHParamsCifarModel(self):$/;"	m	class:NASNetTest
+testOverrideHParamsLargeModel	nets/nasnet/nasnet_test.py	/^  def testOverrideHParamsLargeModel(self):$/;"	m	class:NASNetTest
+testOverrideHParamsLargeModel	nets/nasnet/pnasnet_test.py	/^  def testOverrideHParamsLargeModel(self):$/;"	m	class:PNASNetTest
+testOverrideHParamsMobileModel	nets/nasnet/nasnet_test.py	/^  def testOverrideHParamsMobileModel(self):$/;"	m	class:NASNetTest
+testOverrideHParamsMobileModel	nets/nasnet/pnasnet_test.py	/^  def testOverrideHParamsMobileModel(self):$/;"	m	class:PNASNetTest
+testPS	deployment/model_deploy_test.py	/^  def testPS(self):$/;"	m	class:DeploymentConfigTest
+testRaiseValueErrorWithInvalidDepthMultiplier	nets/inception_v2_test.py	/^  def testRaiseValueErrorWithInvalidDepthMultiplier(self):$/;"	m	class:InceptionV2Test
+testRaiseValueErrorWithInvalidDepthMultiplier	nets/inception_v3_test.py	/^  def testRaiseValueErrorWithInvalidDepthMultiplier(self):$/;"	m	class:InceptionV3Test
+testRaiseValueErrorWithInvalidDepthMultiplier	nets/mobilenet_v1_test.py	/^  def testRaiseValueErrorWithInvalidDepthMultiplier(self):$/;"	m	class:MobilenetV1Test
+testReplicasMultiGPUPS	deployment/model_deploy_test.py	/^  def testReplicasMultiGPUPS(self):$/;"	m	class:DeploymentConfigTest
+testReplicasPS	deployment/model_deploy_test.py	/^  def testReplicasPS(self):$/;"	m	class:DeploymentConfigTest
+testRootlessFullyConvolutionalEndpointShapes	nets/resnet_v1_test.py	/^  def testRootlessFullyConvolutionalEndpointShapes(self):$/;"	m	class:ResnetCompleteNetworkTest
+testRootlessFullyConvolutionalEndpointShapes	nets/resnet_v2_test.py	/^  def testRootlessFullyConvolutionalEndpointShapes(self):$/;"	m	class:ResnetCompleteNetworkTest
+testStridingLastUnitVsSubsampleBlockEnd	nets/resnet_v1_test.py	/^  def testStridingLastUnitVsSubsampleBlockEnd(self):$/;"	m	class:ResnetUtilsTest
+testSubsampleFourByFour	nets/resnet_v1_test.py	/^  def testSubsampleFourByFour(self):$/;"	m	class:ResnetUtilsTest
+testSubsampleFourByFour	nets/resnet_v2_test.py	/^  def testSubsampleFourByFour(self):$/;"	m	class:ResnetUtilsTest
+testSubsampleThreeByThree	nets/resnet_v1_test.py	/^  def testSubsampleThreeByThree(self):$/;"	m	class:ResnetUtilsTest
+testSubsampleThreeByThree	nets/resnet_v2_test.py	/^  def testSubsampleThreeByThree(self):$/;"	m	class:ResnetUtilsTest
+testTenFrames	nets/i3d_test.py	/^  def testTenFrames(self):$/;"	m	class:I3DTest
+testTenFrames	nets/s3dg_test.py	/^  def testTenFrames(self):$/;"	m	class:S3DGTest
+testTrainEvalWithReuse	nets/alexnet_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:AlexnetV2Test
+testTrainEvalWithReuse	nets/inception_resnet_v2_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:InceptionTest
+testTrainEvalWithReuse	nets/inception_v1_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:InceptionV1Test
+testTrainEvalWithReuse	nets/inception_v2_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:InceptionV2Test
+testTrainEvalWithReuse	nets/inception_v3_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:InceptionV3Test
+testTrainEvalWithReuse	nets/inception_v4_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:InceptionTest
+testTrainEvalWithReuse	nets/mobilenet_v1_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:MobilenetV1Test
+testTrainEvalWithReuse	nets/overfeat_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:OverFeatTest
+testTrainEvalWithReuse	nets/vgg_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:VGG16Test
+testTrainEvalWithReuse	nets/vgg_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:VGG19Test
+testTrainEvalWithReuse	nets/vgg_test.py	/^  def testTrainEvalWithReuse(self):$/;"	m	class:VGGATest
+testUnknowBatchSize	nets/inception_v1_test.py	/^  def testUnknowBatchSize(self):$/;"	m	class:InceptionV1Test
+testUnknowBatchSize	nets/inception_v2_test.py	/^  def testUnknowBatchSize(self):$/;"	m	class:InceptionV2Test
+testUnknowBatchSize	nets/inception_v3_test.py	/^  def testUnknowBatchSize(self):$/;"	m	class:InceptionV3Test
+testUnknowBatchSize	nets/mobilenet_v1_test.py	/^  def testUnknowBatchSize(self):$/;"	m	class:MobilenetV1Test
+testUnknownBatchSize	nets/inception_resnet_v2_test.py	/^  def testUnknownBatchSize(self):$/;"	m	class:InceptionTest
+testUnknownBatchSize	nets/inception_v4_test.py	/^  def testUnknownBatchSize(self):$/;"	m	class:InceptionTest
+testUnknownBatchSize	nets/resnet_v1_test.py	/^  def testUnknownBatchSize(self):$/;"	m	class:ResnetCompleteNetworkTest
+testUnknownBatchSize	nets/resnet_v2_test.py	/^  def testUnknownBatchSize(self):$/;"	m	class:ResnetCompleteNetworkTest
+testUnknownBatchSizeMobileModel	nets/nasnet/nasnet_test.py	/^  def testUnknownBatchSizeMobileModel(self):$/;"	m	class:NASNetTest
+testUnknownImageShape	nets/inception_v1_test.py	/^  def testUnknownImageShape(self):$/;"	m	class:InceptionV1Test
+testUnknownImageShape	nets/inception_v2_test.py	/^  def testUnknownImageShape(self):$/;"	m	class:InceptionV2Test
+testUnknownImageShape	nets/inception_v3_test.py	/^  def testUnknownImageShape(self):$/;"	m	class:InceptionV3Test
+testUnknownImageShape	nets/mobilenet_v1_test.py	/^  def testUnknownImageShape(self):$/;"	m	class:MobilenetV1Test
+testUseBoundedAcitvationCifarModel	nets/nasnet/nasnet_test.py	/^  def testUseBoundedAcitvationCifarModel(self):$/;"	m	class:NASNetTest
+testUseBoundedAcitvationMobileModel	nets/nasnet/pnasnet_test.py	/^  def testUseBoundedAcitvationMobileModel(self):$/;"	m	class:PNASNetTest
+testVariablesPS	deployment/model_deploy_test.py	/^  def testVariablesPS(self):$/;"	m	class:DeploymentConfigTest
+testVariablesSetDevice	nets/inception_resnet_v2_test.py	/^  def testVariablesSetDevice(self):$/;"	m	class:InceptionTest
+testVariablesSetDevice	nets/inception_v4_test.py	/^  def testVariablesSetDevice(self):$/;"	m	class:InceptionTest
+testVariablesSetDeviceMobileModel	nets/nasnet/nasnet_test.py	/^  def testVariablesSetDeviceMobileModel(self):$/;"	m	class:NASNetTest
+testWithOutputStride16	nets/mobilenet/mobilenet_v2_test.py	/^  def testWithOutputStride16(self):$/;"	m	class:MobilenetV2Test
+testWithOutputStride16AndExplicitPadding	nets/mobilenet/mobilenet_v2_test.py	/^  def testWithOutputStride16AndExplicitPadding(self):$/;"	m	class:MobilenetV2Test
+testWithOutputStride8	nets/mobilenet/mobilenet_v2_test.py	/^  def testWithOutputStride8(self):$/;"	m	class:MobilenetV2Test
+testWithOutputStride8AndExplicitPadding	nets/mobilenet/mobilenet_v2_test.py	/^  def testWithOutputStride8AndExplicitPadding(self):$/;"	m	class:MobilenetV2Test
+testWithSplits	nets/mobilenet/mobilenet_v2_test.py	/^  def testWithSplits(self):$/;"	m	class:MobilenetV2Test
+test_block_number_dictates_number_of_layers	nets/pix2pix_test.py	/^  def test_block_number_dictates_number_of_layers(self):$/;"	m	class:GeneratorTest
+test_discriminator_graph	nets/dcgan_test.py	/^  def test_discriminator_graph(self):$/;"	m	class:DCGANTest
+test_discriminator_invalid_input	nets/dcgan_test.py	/^  def test_discriminator_invalid_input(self):$/;"	m	class:DCGANTest
+test_discriminator_run	nets/dcgan_test.py	/^  def test_discriminator_run(self):$/;"	m	class:DCGANTest
+test_error_if_height_not_multiple_of_four_height29	nets/cyclegan_test.py	/^  def test_error_if_height_not_multiple_of_four_height29(self):$/;"	m	class:CycleganTest
+test_error_if_height_not_multiple_of_four_height30	nets/cyclegan_test.py	/^  def test_error_if_height_not_multiple_of_four_height30(self):$/;"	m	class:CycleganTest
+test_error_if_height_not_multiple_of_four_height31	nets/cyclegan_test.py	/^  def test_error_if_height_not_multiple_of_four_height31(self):$/;"	m	class:CycleganTest
+test_error_if_width_not_multiple_of_four_width29	nets/cyclegan_test.py	/^  def test_error_if_width_not_multiple_of_four_width29(self):$/;"	m	class:CycleganTest
+test_error_if_width_not_multiple_of_four_width30	nets/cyclegan_test.py	/^  def test_error_if_width_not_multiple_of_four_width30(self):$/;"	m	class:CycleganTest
+test_error_if_width_not_multiple_of_four_width31	nets/cyclegan_test.py	/^  def test_error_if_width_not_multiple_of_four_width31(self):$/;"	m	class:CycleganTest
+test_four_layers	nets/pix2pix_test.py	/^  def test_four_layers(self):$/;"	m	class:DiscriminatorTest
+test_four_layers_negative_padding	nets/pix2pix_test.py	/^  def test_four_layers_negative_padding(self):$/;"	m	class:DiscriminatorTest
+test_four_layers_no_padding	nets/pix2pix_test.py	/^  def test_four_layers_no_padding(self):$/;"	m	class:DiscriminatorTest
+test_four_layers_wrog_paddig	nets/pix2pix_test.py	/^  def test_four_layers_wrog_paddig(self):$/;"	m	class:DiscriminatorTest
+test_generator_graph	nets/dcgan_test.py	/^  def test_generator_graph(self):$/;"	m	class:DCGANTest
+test_generator_graph_medium	nets/cyclegan_test.py	/^  def test_generator_graph_medium(self):$/;"	m	class:CycleganTest
+test_generator_graph_nonsquare	nets/cyclegan_test.py	/^  def test_generator_graph_nonsquare(self):$/;"	m	class:CycleganTest
+test_generator_graph_small	nets/cyclegan_test.py	/^  def test_generator_graph_small(self):$/;"	m	class:CycleganTest
+test_generator_inference	nets/cyclegan_test.py	/^  def test_generator_inference(self):$/;"	m	class:CycleganTest
+test_generator_invalid_input	nets/dcgan_test.py	/^  def test_generator_invalid_input(self):$/;"	m	class:DCGANTest
+test_generator_run	nets/dcgan_test.py	/^  def test_generator_run(self):$/;"	m	class:DCGANTest
+test_generator_unknown_batch_dim	nets/cyclegan_test.py	/^  def test_generator_unknown_batch_dim(self):$/;"	m	class:CycleganTest
+test_output_size_conv2d_transpose	nets/pix2pix_test.py	/^  def test_output_size_conv2d_transpose(self):$/;"	m	class:GeneratorTest
+test_output_size_nn_upsample_conv	nets/pix2pix_test.py	/^  def test_output_size_nn_upsample_conv(self):$/;"	m	class:GeneratorTest
+tf	datasets/build_imagenet_data.py	/^import tensorflow as tf$/;"	i
+tf	datasets/cifar10.py	/^import tensorflow as tf$/;"	i
+tf	datasets/dataset_utils.py	/^import tensorflow as tf$/;"	i
+tf	datasets/download_and_convert_cifar10.py	/^import tensorflow as tf$/;"	i
+tf	datasets/download_and_convert_flowers.py	/^import tensorflow as tf$/;"	i
+tf	datasets/download_and_convert_mnist.py	/^import tensorflow as tf$/;"	i
+tf	datasets/flowers.py	/^import tensorflow as tf$/;"	i
+tf	datasets/imagenet.py	/^import tensorflow as tf$/;"	i
+tf	datasets/mnist.py	/^import tensorflow as tf$/;"	i
+tf	deployment/model_deploy.py	/^import tensorflow as tf$/;"	i
+tf	deployment/model_deploy_test.py	/^import tensorflow as tf$/;"	i
+tf	download_and_convert_data.py	/^import tensorflow as tf$/;"	i
+tf	eval_image_classifier.py	/^import tensorflow as tf$/;"	i
+tf	export_inference_graph.py	/^import tensorflow as tf$/;"	i
+tf	export_inference_graph_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/alexnet.py	/^import tensorflow as tf$/;"	i
+tf	nets/alexnet_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/cifarnet.py	/^import tensorflow as tf$/;"	i
+tf	nets/cyclegan.py	/^import tensorflow as tf$/;"	i
+tf	nets/cyclegan_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/dcgan.py	/^import tensorflow as tf$/;"	i
+tf	nets/dcgan_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/i3d.py	/^import tensorflow as tf$/;"	i
+tf	nets/i3d_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/i3d_utils.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_resnet_v2.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_resnet_v2_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_utils.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_v1.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_v1_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_v2.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_v2_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_v3.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_v3_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_v4.py	/^import tensorflow as tf$/;"	i
+tf	nets/inception_v4_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/lenet.py	/^import tensorflow as tf$/;"	i
+tf	nets/mobilenet/conv_blocks.py	/^import tensorflow as tf$/;"	i
+tf	nets/mobilenet/mobilenet.py	/^import tensorflow as tf$/;"	i
+tf	nets/mobilenet/mobilenet_v2.py	/^import tensorflow as tf$/;"	i
+tf	nets/mobilenet/mobilenet_v2_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/mobilenet_v1.py	/^import tensorflow as tf$/;"	i
+tf	nets/mobilenet_v1_eval.py	/^import tensorflow as tf$/;"	i
+tf	nets/mobilenet_v1_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/mobilenet_v1_train.py	/^import tensorflow as tf$/;"	i
+tf	nets/nasnet/nasnet.py	/^import tensorflow as tf$/;"	i
+tf	nets/nasnet/nasnet_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/nasnet/nasnet_utils.py	/^import tensorflow as tf$/;"	i
+tf	nets/nasnet/nasnet_utils_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/nasnet/pnasnet.py	/^import tensorflow as tf$/;"	i
+tf	nets/nasnet/pnasnet_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/nets_factory.py	/^import tensorflow as tf$/;"	i
+tf	nets/nets_factory_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/overfeat.py	/^import tensorflow as tf$/;"	i
+tf	nets/overfeat_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/pix2pix.py	/^import tensorflow as tf$/;"	i
+tf	nets/pix2pix_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/resnet_utils.py	/^import tensorflow as tf$/;"	i
+tf	nets/resnet_v1.py	/^import tensorflow as tf$/;"	i
+tf	nets/resnet_v1_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/resnet_v2.py	/^import tensorflow as tf$/;"	i
+tf	nets/resnet_v2_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/s3dg.py	/^import tensorflow as tf$/;"	i
+tf	nets/s3dg_test.py	/^import tensorflow as tf$/;"	i
+tf	nets/vgg.py	/^import tensorflow as tf$/;"	i
+tf	nets/vgg_test.py	/^import tensorflow as tf$/;"	i
+tf	preprocessing/cifarnet_preprocessing.py	/^import tensorflow as tf$/;"	i
+tf	preprocessing/inception_preprocessing.py	/^import tensorflow as tf$/;"	i
+tf	preprocessing/lenet_preprocessing.py	/^import tensorflow as tf$/;"	i
+tf	preprocessing/preprocessing_factory.py	/^import tensorflow as tf$/;"	i
+tf	preprocessing/vgg_preprocessing.py	/^import tensorflow as tf$/;"	i
+tf	train_image_classifier.py	/^import tensorflow as tf$/;"	i
+threading	datasets/build_imagenet_data.py	/^import threading$/;"	i
+train_model	nets/mobilenet_v1_train.py	/^def train_model():$/;"	f
+training_scope	nets/mobilenet/mobilenet.py	/^def training_scope(is_training=True,$/;"	f
+training_scope	nets/mobilenet/mobilenet_v2.py	/^def training_scope(**kwargs):$/;"	f
+trunc_normal	nets/alexnet.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	v
+trunc_normal	nets/cifarnet.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(stddev=stddev)$/;"	v
+trunc_normal	nets/i3d.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	v
+trunc_normal	nets/inception_v1.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	v
+trunc_normal	nets/inception_v2.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	v
+trunc_normal	nets/inception_v3.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	v
+trunc_normal	nets/overfeat.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	v
+trunc_normal	nets/s3dg.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	v
+unique_labels	datasets/preprocess_imagenet_validation_data.py	/^  unique_labels = set(labels)$/;"	v
+upsample	nets/pix2pix.py	/^def upsample(net, num_outputs, kernel_size, method='nn_upsample_conv'):$/;"	f
+urllib	datasets/dataset_utils.py	/^from six.moves import urllib$/;"	i
+urllib	datasets/download_and_convert_cifar10.py	/^from six.moves import urllib$/;"	i
+urllib	datasets/download_and_convert_mnist.py	/^from six.moves import urllib$/;"	i
+urllib	datasets/imagenet.py	/^from six.moves import urllib$/;"	i
+validation_labels_file	datasets/preprocess_imagenet_validation_data.py	/^  validation_labels_file = sys.argv[2]$/;"	v
+variables_device	deployment/model_deploy.py	/^  def variables_device(self):$/;"	m	class:DeploymentConfig
+version	setup.py	/^    version='0.1',$/;"	v
+vgg	nets/nets_factory.py	/^from nets import vgg$/;"	i
+vgg	nets/vgg_test.py	/^from nets import vgg$/;"	i
+vgg_16	nets/vgg.py	/^def vgg_16(inputs,$/;"	f
+vgg_19	nets/vgg.py	/^def vgg_19(inputs,$/;"	f
+vgg_a	nets/vgg.py	/^def vgg_a(inputs,$/;"	f
+vgg_arg_scope	nets/vgg.py	/^def vgg_arg_scope(weight_decay=0.0005):$/;"	f
+vgg_d	nets/vgg.py	/^vgg_d = vgg_16$/;"	v
+vgg_e	nets/vgg.py	/^vgg_e = vgg_19$/;"	v
+vgg_preprocessing	preprocessing/preprocessing_factory.py	/^from preprocessing import vgg_preprocessing$/;"	i
+worker_device	deployment/model_deploy.py	/^  def worker_device(self):$/;"	m	class:DeploymentConfig
+wrapped_partial	nets/mobilenet/mobilenet_v2.py	/^def wrapped_partial(func, *args, **kwargs):$/;"	f
+wrapped_partial	nets/mobilenet_v1.py	/^def wrapped_partial(func, *args, **kwargs):$/;"	f
+write_label_file	datasets/dataset_utils.py	/^def write_label_file(labels_to_class_names, dataset_dir,$/;"	f
+xml	datasets/process_bounding_boxes.py	/^import xml.etree.ElementTree as ET$/;"	i
+xml_files	datasets/process_bounding_boxes.py	/^  xml_files = glob.glob(sys.argv[1] + '\/*\/*.xml')$/;"	v
+xrange	datasets/build_imagenet_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+xrange	datasets/preprocess_imagenet_validation_data.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+xrange	datasets/process_bounding_boxes.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+xrange	nets/cyclegan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+xrange	nets/dcgan.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
+xrange	nets/dcgan_test.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	i
