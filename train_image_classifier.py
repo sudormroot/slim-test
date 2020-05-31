@@ -572,6 +572,9 @@ def main(_):
     ###########################
     # Kicks off the training. #
     ###########################
+
+    hooks=[]
+
     slim.learning.train(
         train_tensor,
         logdir=FLAGS.train_dir,
@@ -583,7 +586,8 @@ def main(_):
         log_every_n_steps=FLAGS.log_every_n_steps,
         save_summaries_secs=FLAGS.save_summaries_secs,
         save_interval_secs=FLAGS.save_interval_secs,
-        sync_optimizer=optimizer if FLAGS.sync_replicas else None)
+        sync_optimizer=optimizer if FLAGS.sync_replicas else None,
+        hooks)
 
 
 if __name__ == '__main__':
